@@ -7,15 +7,13 @@ import { Footer } from './components/layout/Footer'
 
 export const App = () => {
   return (
-    <>
+    <main className="relative">
       {/* <Header /> */}
-      {/* <Nav /> */}
-      <main>
-        <Hero />
-        <Skills />
-        <Projects />
-        <Footer />
-      </main>
-    </>
+      <Nav />
+      <Hero />
+      <Skills />
+      <Projects />
+      <Footer />
+    </main>
   )
 }
