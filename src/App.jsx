@@ -12,7 +12,7 @@ export const App = () => {
       {/* <Nav /> */}
       <main>
         <Hero />
-        {/* <Skills /> */}
+        <Skills />
         {/* <Projects /> */}
         {/* <Footer /> */}
       </main>
