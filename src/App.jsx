@@ -1,5 +1,21 @@
+import { Header } from './components/layout/Header'
+import { Nav } from './components/layout/Nav'
+import { Hero } from './components/sections/Hero'
+import { Skills } from './components/sections/Skills'
+import { Projects } from './components/sections/Projects'
+import { Footer } from './components/layout/Footer'
+
 export const App = () => {
   return (
-    <h1 className="text-blue-500 text-[40px] p-4 border">Hello From React!</h1>
+    <>
+      {/* <Header /> */}
+      {/* <Nav /> */}
+      <main>
+        <Hero />
+        {/* <Skills /> */}
+        {/* <Projects /> */}
+        {/* <Footer /> */}
+      </main>
+    </>
   )
 }
