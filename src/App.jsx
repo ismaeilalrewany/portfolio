@@ -14,7 +14,7 @@ export const App = () => {
         <Hero />
         <Skills />
         <Projects />
-        {/* <Footer /> */}
+        <Footer />
       </main>
     </>
   )
