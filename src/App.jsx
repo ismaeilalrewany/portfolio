@@ -8,7 +8,7 @@ import { Footer } from './components/layout/Footer'
 export const App = () => {
   return (
     <main className="relative">
-      {/* <Header /> */}
+      <Header />
       <Nav />
       <Hero />
       <Skills />
