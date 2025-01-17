@@ -3,11 +3,11 @@ import { Navigation } from './components/layout/Navigation'
 import { Hero } from './components/sections/Hero'
 import { Skills } from './components/sections/Skills'
 import { Projects } from './components/sections/Projects'
-import { Footer } from './components/layout/Footer'
-import { useContext, useEffect } from 'react'
+import { Contact } from './components/sections/Contact'
 import { NavContext } from './context/NavContext'
+import { useContext, useEffect } from 'react'
 
-const sections = { Hero, Skills, Projects, Footer }
+const sections = { Hero, Skills, Projects, Contact }
 
 export const App = () => {
   const { currentItem } = useContext(NavContext)
