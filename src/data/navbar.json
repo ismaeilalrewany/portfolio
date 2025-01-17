@@ -1,0 +1,29 @@
+{
+  "navItems": [
+    {
+      "id": ":>1",
+      "title": "Hero Section",
+      "section": "Hero",
+      "active": true
+    },
+    {
+      "id": ":>2",
+      "title": "Skills Section",
+      "section": "Skills",
+      "active": false
+    },
+    {
+      "id": ":>3",
+      "title": "Projects Section",
+      "section": "Projects",
+      "active": false
+    },
+    {
+      "id": ":>4",
+      "title": "Foote&Contact Section",
+      "section": "Footer",
+      "active": false
+    }
+  ],
+  "itemsCount": 4
+}
