@@ -7,7 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {},
-      fontFamily: {},
+      fontFamily: {
+        Orbitron: ["Orbitron", "sans-serif"],
+        NovaSquare: ["Nova Square", "sans-serif"],
+        BrunoAceSC: ["Bruno Ace SC", "sans-serif"],
+      },
       fontSize: {},
     },
   },
