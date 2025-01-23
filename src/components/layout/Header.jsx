@@ -36,7 +36,7 @@ export const Header = () => {
         <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center cursor-pointer opacity-25 hover:opacity-100">
           <BrightnessIcon className="w-8 h-8 fill-current text-blue-500" />
         </div>
-        <div className="flex justify-center items-center w-auto h-10 bg-white p-2 rounded-full overflow-hidden opacity-25 hover:opacity-100">
+        <div className="flex justify-center items-center min-w-[204px] w-auto h-10 bg-white p-2 rounded-full overflow-hidden opacity-25 hover:opacity-100">
           {hours.map((hour, index) => (
             <Hour key={index} isActive={hour.isActive} isFilled={hour.isFilled} />
           ))}

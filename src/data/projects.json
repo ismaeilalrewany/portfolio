@@ -1,0 +1,41 @@
+{
+  "projects": [
+    {
+      "id": "P1",
+      "title": "Portfolio",
+      "description": "Description 1",
+      "image": "portfolio.jpg",
+      "github": "https://github.com/ismaeilalrewany/portfolio",
+      "website": "ismaeilalrewany.tech",
+      "keywords": ["React", "Tailwind-CSS", "Vite"]
+    },
+    {
+      "id": "P2",
+      "title": "Al-cashier",
+      "description": "Description 2",
+      "image": "al-cashier.jpg",
+      "github": "https://github.com/ismaeilalrewany/al-cashier-alpha",
+      "website": "https://al-cashier.netlify.app/",
+      "keywords": ["HTML", "CSS", "JavaScript", "Bootstrap", "ChartJS"]
+    },
+    {
+      "id": "P3",
+      "title": "Al-bayie Shop",
+      "description": "Description 3",
+      "image": "al-bayie.jpg",
+      "github": "https://github.com/ismaeilalrewany/albayie-shop",
+      "website": "",
+      "keywords": ["NodeJS", "Express", "Mongoose", "HBS", "Bootstrap"]
+    },
+    {
+      "id": "P4",
+      "title": "Special Design",
+      "description": "Description 4",
+      "image": "special-design.jpg",
+      "github": "https://github.com/ismaeilalrewany/special",
+      "website": "https://ismaeilalrewany.github.io/special/",
+      "keywords": ["HTML", "CSS", "JavaScript", "Normalize"]
+    }
+  ],
+  "projectsCount": 4
+}
