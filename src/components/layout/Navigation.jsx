@@ -20,7 +20,7 @@ export const Navigation = () => {
   useNavEvents(handleSectionClick)
 
   return (
-    <nav className="fixed right-4 top-[50%] translate-y-[-50%] opacity-25 hover:opacity-100">
+    <nav className="fixed right-6 top-[50%] translate-y-[-50%] opacity-25 hover:opacity-100">
       <p className="font-BrunoAceSC bg-gray-600 text-blue-500 mb-6 relative -right-2">
         <span className={`text-3xl absolute -top-2 ${getIndexOfCurrentItem () === 1 ? "left-[-16px]" : "left-[-26px]"}`}>{getIndexOfCurrentItem()}</span>
         <span className="text-lg">/</span>
