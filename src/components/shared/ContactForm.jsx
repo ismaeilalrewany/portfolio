@@ -1,50 +1,43 @@
-import propTypes from "prop-types"
+import { Input } from "./Input"
+import { Button } from "./Button"
+import { useState } from "react"
 
-const FormInput = ({ label, id, type = "text", textarea = false }) => (
-  <div className="mb-4">
-    <label htmlFor={id} className="block text-sm font-medium text-blue-500">
-      {label}
-    </label>
-    {textarea ? (
-      <textarea
-        id={id}
-        name={id}
-        rows="4"
-        className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-        required
-      />
-    ) : (
-      <input
-        type={type}
-        id={id}
-        name={id}
-        className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-        required
-      />
-    )}
-  </div>
-)
+export const ContactForm = () => {
+  const [result, setResult] = useState("")
 
-export const ContactForm = () => (
-  <form className="col-span-2" action="" method="post">
-    <h2 className="font-Orbitron text-xl mb-4">Contact</h2>
-    <FormInput label="Full Name" id="fullName" />
-    <FormInput label="Email" id="email" type="email" />
-    <FormInput label="Message" id="message" textarea />
-    <div>
-      <button
-        type="submit"
-        className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-      >
-        Submit
-      </button>
-    </div>
-  </form>
-)
+  const onSubmit = async (event) => {
+    event.preventDefault()
+    setResult("Sending....")
+    const formData = new FormData(event.target)
 
-FormInput.propTypes = {
-  label: propTypes.string.isRequired,
-  id: propTypes.string.isRequired,
-  type: propTypes.string,
-  textarea: propTypes.bool,
+    formData.append("access_key", "d729d16e-3508-4e2d-a2a9-fd995e50b23a")
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    })
+
+    const data = await response.json()
+
+    if (data.success) {
+      setResult("Form Submitted Successfully")
+      event.target.reset()
+    } else {
+      console.log("Error", data)
+      setResult(data.message)
+    }
+  }
+
+  return (
+    <>
+      <form className="col-span-2" onSubmit={onSubmit}>
+        <h2 className="font-Orbitron text-xl mb-4">Contact</h2>
+        <Input label="Full Name" id="fullName" />
+        <Input label="Email" id="email" type="email" />
+        <Input label="Message" id="message" textarea />
+        <Button label="Submit" type="submit" />
+      </form>
+      <span className="font-BrunoAceSC text-md text-blue-500" >{result}</span>
+    </>
+  )
 }
