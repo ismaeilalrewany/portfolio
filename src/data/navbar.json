@@ -4,25 +4,29 @@
       "id": "N1",
       "title": "Hero Section",
       "section": "Hero",
-      "active": true
+      "active": true,
+      "url": "ismaeilalrewany.tech/hero/"
     },
     {
       "id": "N2",
       "title": "Skills Section",
       "section": "Skills",
-      "active": false
+      "active": false,
+      "url": "ismaeilalrewany.tech/skills/"
     },
     {
       "id": "N3",
       "title": "Projects Section",
       "section": "Projects",
-      "active": false
+      "active": false,
+      "url": "ismaeilalrewany.tech/projects/"
     },
     {
       "id": "N4",
       "title": "Contact Section",
       "section": "Contact",
-      "active": false
+      "active": false,
+      "url": "ismaeilalrewany.tech/contact/"
     }
   ],
   "itemsCount": 4
