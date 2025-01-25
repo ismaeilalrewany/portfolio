@@ -6,5 +6,7 @@
 - [ ] Navigation items description background way isn't good I need to find a better way to do the same effect.
 - [ ] Work on the header features.
 - [ ] Make the website responsive.
-- [ ] Complete work on contact section.
-- [ ] Complete work on hero section.
+- [ ] React Router Dom.
+- [ ] Fix Navigation and Pages on Routers.
+- [ ] Create Page Not Found.
+

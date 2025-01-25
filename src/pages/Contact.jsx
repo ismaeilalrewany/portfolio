@@ -1,10 +1,10 @@
-import { ContactNavList } from "../shared/ContactNavList"
-import { About } from "../shared/About"
-import { SocialLinks } from "../shared/SocialLinks"
-import { ContactForm } from "../shared/ContactForm"
-import { Footer } from "../shared/Footer"
-import navbarData from "../../data/navbar.json"
-import projectsData from "../../data/projects.json"
+import { ContactNavList } from "../components/shared/ContactNavList"
+import { About } from "../components/layout/About"
+import { SocialLinks } from "../components/shared/SocialLinks"
+import { ContactForm } from "../components/layout/ContactForm"
+import { Footer } from "../components/layout/Footer"
+import navbarData from "../data/navbar.json"
+import projectsData from "../data/projects.json"
 
 export const Contact = () => {
   const aboutContent = "I am Ismaeil Alrewany, I am a web developer and designer with a passion..."

@@ -1,9 +1,9 @@
 import { Header } from './components/layout/Header'
 import { Navigation } from './components/layout/Navigation'
-import { Hero } from './components/sections/Hero'
-import { Skills } from './components/sections/Skills'
-import { Projects } from './components/sections/Projects'
-import { Contact } from './components/sections/Contact'
+import { Hero } from './pages/Hero'
+import { Skills } from './pages/Skills'
+import { Projects } from './pages/Projects'
+import { Contact } from './pages/Contact'
 import { NavContext } from './context/NavContext'
 import { useContext, useEffect } from 'react'
 
