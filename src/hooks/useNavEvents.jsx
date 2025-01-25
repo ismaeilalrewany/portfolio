@@ -1,28 +1,31 @@
 import { useEffect, useState } from "react"
+import { useNavigate } from "react-router-dom"
 import navbarData from "../data/navbar"
 
-export const useNavEvents = (handleSectionClick) => {
+export const useNavEvents = (indexOfCurrentPage) => {
+  const currentPageIndex = indexOfCurrentPage - 1
   const [touchStart, setTouchStart] = useState(0)
+  const navigate = useNavigate()
 
   const handleKeyDown = (event) => {
-    let currentIndex = navbarData.navItems.findIndex(item => item.active);
-
-    if (event.key === "ArrowUp" && currentIndex > 0) {
-      handleSectionClick(navbarData.navItems[currentIndex - 1])
-    } else if (event.key === "ArrowDown" && currentIndex < navbarData.navItems.length - 1) {
-      handleSectionClick(navbarData.navItems[currentIndex + 1])
+    if (event.key === "ArrowUp" && currentPageIndex > 0) {
+      // if (window.scrollY === 0) {
+      //   navigate(navbarData.navItems[currentPageIndex - 1].url)
+      // }
+      // console.log(window.innerHeight)
+      navigate(navbarData.navItems[currentPageIndex - 1].url)
+    } else if (event.key === "ArrowDown" && currentPageIndex < navbarData.navItems.length - 1) {
+      navigate(navbarData.navItems[currentPageIndex + 1].url)
     } else {
       return
     }
   }
 
   const handleWheel = (event) => {
-    let currentIndex = navbarData.navItems.findIndex(item => item.active);
-
-    if (event.deltaY < 0 && currentIndex > 0) {
-      handleSectionClick(navbarData.navItems[currentIndex - 1])
-    } else if (event.deltaY > 0 && currentIndex < navbarData.navItems.length - 1) {
-      handleSectionClick(navbarData.navItems[currentIndex + 1])
+    if (event.deltaY < 0 && currentPageIndex > 0) {
+      navigate(navbarData.navItems[currentPageIndex - 1].url)
+    } else if (event.deltaY > 0 && currentPageIndex < navbarData.navItems.length - 1) {
+      navigate(navbarData.navItems[currentPageIndex + 1].url)
     } else {
       return
     }
@@ -33,14 +36,13 @@ export const useNavEvents = (handleSectionClick) => {
   }
 
   const handleTouchEnd = (event) => {
-    const currentIndex = navbarData.navItems.findIndex(item => item.active)
     const touchEnd = event.changedTouches[0].clientY
     const touchDifference = touchStart - touchEnd
 
-    if (touchDifference > 50 && currentIndex < navbarData.navItems.length - 1) {
-      handleSectionClick(navbarData.navItems[currentIndex + 1])
-    } else if (touchDifference < -50 && currentIndex > 0) {
-      handleSectionClick(navbarData.navItems[currentIndex - 1])
+    if (touchDifference > 50 && currentPageIndex < navbarData.navItems.length - 1) {
+      navigate(navbarData.navItems[currentPageIndex + 1].url)
+    } else if (touchDifference < -50 && currentPageIndex > 0) {
+      navigate(navbarData.navItems[currentPageIndex - 1].url)
     } else {
       return
     }
@@ -58,7 +60,7 @@ export const useNavEvents = (handleSectionClick) => {
       window.removeEventListener("touchstart", handleTouchStart)
       window.removeEventListener("touchend", handleTouchEnd)
     };
-  }, [touchStart])
+  }, [currentPageIndex, touchStart])
 
   return { handleTouchStart, handleTouchEnd }
 }

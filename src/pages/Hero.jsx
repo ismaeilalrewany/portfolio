@@ -1,6 +1,9 @@
+import { useTitle } from "../hooks/useTitle"
 import { Button } from "../components/shared/Button"
 
 export const Hero = () => {
+  useTitle("Ismaeil Alrewany | Front-end Web Developer")
+
   return (
     <section className="bg-gray-600 text-blue-500 h-screen font-NovaSquare">
       <div className="container px-2 mx-auto h-full flex flex-col justify-center items-center">
