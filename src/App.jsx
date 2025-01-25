@@ -4,6 +4,7 @@ import { Hero } from './pages/Hero'
 import { Skills } from './pages/Skills'
 import { Projects } from './pages/Projects'
 import { Contact } from './pages/Contact'
+import { NotFound } from './pages/NotFound'
 import { NavContext } from './context/NavContext'
 import { useContext, useEffect } from 'react'
 
@@ -22,6 +23,7 @@ export const App = () => {
       <Header />
       <Navigation />
       <SectionComponent />
+      {/* <NotFound /> */}
     </main>
   )
 }

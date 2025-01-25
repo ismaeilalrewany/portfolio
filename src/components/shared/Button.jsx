@@ -2,7 +2,7 @@ import propTypes from 'prop-types'
 
 export const Button = ({label, type = "button"}) => {
   return (
-    <button type={type} className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">{label}</button>
+    <button type={type} className="py-2 px-4 border border-blue-500 rounded-[20px] mt-3 lg:mt-4 text-[14px] lg:text-[16px] font-BrunoAceSC">{label}</button>
   )
 }
 
