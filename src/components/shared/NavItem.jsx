@@ -23,7 +23,7 @@ export const NavItem = ({ item }) => {
             <div className="absolute left-[-120px] text-blue-500 font-BrunoAceSC font-bold">
               <div className="relative">
                 <span className="absolute top-1/2 left-0 w-[120px] h-0.5 bg-blue-500 -translate-y-1/2 inline-block"></span>
-                <span className="relative z-[1] bg-gray-600 pr-1 inline-block">{item.section}</span>
+                <span className="relative z-[1] bg-gray-600 pr-1 inline-block">{item.page}</span>
               </div>
             </div>
           )}

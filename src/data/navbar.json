@@ -3,21 +3,25 @@
     {
       "id": "N1",
       "title": "Hero Page",
+      "page": "Hero",
       "url": "/"
     },
     {
       "id": "N2",
       "title": "Skills Page",
+      "page": "Skills",
       "url": "/skills"
     },
     {
       "id": "N3",
       "title": "Projects Page",
+      "page": "Projects",
       "url": "/projects"
     },
     {
       "id": "N4",
       "title": "Contact Page",
+      "page": "Contact",
       "url": "/contact"
     }
   ],
