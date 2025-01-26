@@ -5,7 +5,8 @@
 - [X] React Router Dom.
 - [X] Fix Navigation and Pages on Routers.
 - [X] Create Page Not Found.
-- [ ] use Link in Contact instead of regular a tag.
+- [X] use Link in Contact instead of regular a tag.
+- [ ] Work on projects page & projects cards with animation.
 - [ ] Make what I finish already responsive.
 - [ ] Navigation items description background way isn't good I need to find a better way to do the same effect.
 - [ ] Work on the header features.

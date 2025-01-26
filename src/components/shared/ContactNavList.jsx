@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import propTypes from "prop-types"
 
 export const ContactNavList = ({ title, items }) => (
@@ -6,7 +7,13 @@ export const ContactNavList = ({ title, items }) => (
     <ul className="list-none">
       {items.map(item => (
         <li key={item.id}>
-          <a href={item.url || item.github} target="_blank">{item.title}</a>
+          {
+            item.url ? (
+              <Link to={item.url}>{item.title}</Link>
+            ) : (
+              <a href={item.github} target="_blank">{item.title}</a>
+            )
+          }
         </li>
       ))}
     </ul>
