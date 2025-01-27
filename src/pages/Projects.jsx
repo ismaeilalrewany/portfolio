@@ -1,4 +1,7 @@
 import { useTitle } from "../hooks/useTitle"
+import projectsData from "../data/projects.json"
+import { Card } from "../components/shared/Card"
+
 export const Projects = () => {
   useTitle("Ismaeil Alrewany | Projects")
 
@@ -6,7 +9,13 @@ export const Projects = () => {
     <section className="h-screen text-blue-500 bg-gray-600 font-NovaSquare pt-[60px]">
       <div className="container px-2 mx-auto text-center">
         <h1 className="font-medium text-[28px] lg:text-[48px] font-Orbitron">Projects</h1>
-        <p className="lg:text-[24px]">Portfolio, Al-cashier, Al-bayie, Special Design</p>
+        <div className="grid grid-cols-1 gap-4 mt-4 lg:grid-cols-2">
+          {
+            projectsData.projects.map(project => (
+              <Card key={project.id} data={project} />
+            ))
+          }
+        </div>
       </div>
     </section>
   )
