@@ -6,7 +6,8 @@
 - [X] Fix Navigation and Pages on Routers.
 - [X] Create Page Not Found.
 - [X] use Link in Contact instead of regular a tag.
-- [ ] Work on projects page & projects cards with animation.
+- [X] Work on projects page & projects cards with animation.
+- [ ] Work on skills page & the whole galaxy thing.
 - [ ] Make what I finish already responsive.
 - [ ] Navigation items description background way isn't good I need to find a better way to do the same effect.
 - [ ] Work on the header features.

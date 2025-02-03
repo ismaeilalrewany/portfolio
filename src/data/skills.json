@@ -1,0 +1,107 @@
+{
+  "skillCategory": [
+    {
+      "id": "S1",
+      "category": "frontend",
+      "page": "frontendSkills",
+      "color": "purple",
+      "skills": [
+        {
+          "id": "S1.1",
+          "name": "HTML"
+        },
+        {
+          "id": "S1.2",
+          "name": "CSS"
+        },
+        {
+          "id": "S1.3",
+          "name": "JavaScript"
+        },
+        {
+          "id": "S1.4",
+          "name": "React"
+        },
+        {
+          "id": "S1.5",
+          "name": "Bootstrap"
+        },
+        {
+          "id": "S1.6",
+          "name": "Sass"
+        },
+        {
+          "id": "S1.7",
+          "name": "Tailwind-CSS"
+        },
+        {
+          "id": "S1.8",
+          "name": "Handlebars"
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "category": "backend",
+      "page": "backendSkills",
+      "color": "green",
+      "skills": [
+        {
+          "id": "S2.1",
+          "name": "Node.js"
+        },
+        {
+          "id": "S2.2",
+          "name": "Express"
+        },
+        {
+          "id": "S2.3",
+          "name": "Mongoose"
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "category": "tools",
+      "page": "toolsSkills",
+      "color": "pink",
+      "skills": [
+        {
+          "id": "S3.1",
+          "name": "Git"
+        },
+        {
+          "id": "S3.2",
+          "name": "GitHub"
+        },
+        {
+          "id": "S3.3",
+          "name": "Netlify"
+        },
+        {
+          "id": "S3.4",
+          "name": "Postman"
+        },
+        {
+          "id": "S3.5",
+          "name": "VS Code"
+        },
+        {
+          "id": "S3.6",
+          "name": "Figma"
+        }
+      ]
+    }
+  ],
+  "categoryCount": 3,
+  "categoriesNames": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools"
+  },
+  "categoiesSkillsCount": {
+    "frontend": 8,
+    "backend": 3,
+    "tools": 5
+  }
+}
