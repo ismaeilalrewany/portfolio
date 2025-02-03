@@ -24,7 +24,7 @@ export const Navigation = () => {
   useNavEvents(getIndexOfCurrentPage())
 
   return (
-    <nav className="fixed right-6 top-[50%] translate-y-[-50%] opacity-25 hover:opacity-100">
+    <nav className="fixed right-6 top-[50%] translate-y-[-50%] opacity-25 hover:opacity-100 z-10">
       <p className="font-BrunoAceSC bg-gray-600 text-blue-500 mb-6 relative -right-2">
         <span className={`text-3xl absolute -top-2 ${getIndexOfCurrentPage () === 1 ? "left-[-16px]" : "left-[-26px]"}`}>{getIndexOfCurrentPage()}</span>
         <span className="text-lg">/</span>

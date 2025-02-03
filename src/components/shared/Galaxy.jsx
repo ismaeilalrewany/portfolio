@@ -35,23 +35,20 @@ export const Galaxy = ({color}) => {
   }
 
   const galaxyCoreColor = () => {
-    let coreColor = ""
-    
-    if (color === "purple") {
-      coreColor = "bg-[radial-gradient(ellipse_at_center,_rgba(125,200,255,0.8)_0%,_rgba(96,76,220,0.6)_30%,_rgba(40,20,80,0.4)_100%)] shadow-[0_0_80px_40px_rgba(96,76,220,0.3),0_0_150px_100px_rgba(40,20,80,0.2)_inset]"
-    } else if (color === "green") {
-      coreColor = "bg-[radial-gradient(ellipse_at_center,_rgba(150,255,180,0.9)_0%,_rgba(50,200,150,0.7)_40%,_rgba(20,80,100,0.4)_100%)] shadow-[0_0_100px_50px_rgba(50,200,150,0.3),0_0_150px_80px_rgba(20,150,100,0.2)_inset]"
-    } else if (color === "pink") {
-      coreColor = "bg-[radial-gradient(ellipse_at_center,_rgba(255,200,220,0.9)_0%,_rgba(255,100,180,0.7)_30%,_rgba(120,30,100,0.4)_100%)] shadow-[0_0_80px_40px_rgba(255,100,180,0.3),0_0_120px_80px_rgba(180,50,120,0.2)_inset]"
-    } else {
-      coreColor = ""
+    switch (color) {
+      case "purple":
+        return "bg-[radial-gradient(ellipse_at_center,_rgba(125,200,255,0.8)_0%,_rgba(96,76,220,0.6)_30%,_rgba(40,20,80,0.4)_100%)] shadow-[0_0_80px_40px_rgba(96,76,220,0.3),0_0_150px_100px_rgba(40,20,80,0.2)_inset]"
+      case "green":
+        return "bg-[radial-gradient(ellipse_at_center,_rgba(150,255,180,0.9)_0%,_rgba(50,200,150,0.7)_40%,_rgba(20,80,100,0.4)_100%)] shadow-[0_0_100px_50px_rgba(50,200,150,0.3),0_0_150px_80px_rgba(20,150,100,0.2)_inset]"
+      case "pink":
+        return "bg-[radial-gradient(ellipse_at_center,_rgba(255,200,220,0.9)_0%,_rgba(255,100,180,0.7)_30%,_rgba(120,30,100,0.4)_100%)] shadow-[0_0_80px_40px_rgba(255,100,180,0.3),0_0_120px_80px_rgba(180,50,120,0.2)_inset]"
+      default:
+        return ""
     }
-
-    return coreColor
   }
 
   return (
-    <div className="relative w-[300px] h-[300px] bg-transparent rounded-full overflow-hidden">
+    <div className="relative w-[300px] h-[300px] bg-transparent rounded-full overflow-hidden md:last:col-span-2 lg:last:col-span-1">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] rounded-full animate-rotate">
         {createSpiralArms()}
         <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 rounded-full ${galaxyCoreColor()} backdrop-blur-sm animate-pulse-slow`} />

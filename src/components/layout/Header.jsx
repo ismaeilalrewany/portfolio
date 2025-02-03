@@ -31,7 +31,7 @@ export const Header = () => {
   ]
 
   return (
-    <header className="fixed top-6 left-[50%] translate-x-[-50%] text-center">
+    <header className="fixed top-6 left-[50%] translate-x-[-50%] text-center z-10">
       <div className="grid grid-flow-col auto-cols-auto gap-4">
         <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center opacity-25 hover:opacity-100">
           <BrightnessIcon className="w-8 h-8 fill-current text-blue-500" />
