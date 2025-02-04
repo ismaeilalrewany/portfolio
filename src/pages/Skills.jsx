@@ -16,12 +16,12 @@ export const Skills = () => {
   }, [setCurrentSection])
 
   return (
-    <section className="h-screen text-blue-500 bg-black font-NovaSquare pt-[60px] relative" ref={section}>
+    <section className="h-screen text-blue-500 bg-black font-NovaSquare relative">
       <div className="absolute inset-0 overflow-hidden">
         <Stars />
       </div>
 
-      <div className="container px-2 mx-auto text-center h-full overflow-y-auto scrollbar-thin scrollbar-track-gray-400 scrollbar-thumb-slate-500">
+      <div className="container pt-[60px] pb-4 px-2 mx-auto text-center h-full overflow-y-auto scrollbar-thin scrollbar-track-gray-400 scrollbar-thumb-slate-500" ref={section}>
         <h1 className="font-medium text-[28px] lg:text-[48px] font-Orbitron">Skills</h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 justify-center place-items-center">
           {skillsData.category.map(skill => (

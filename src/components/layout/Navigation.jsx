@@ -1,12 +1,9 @@
 import { NavItem } from "../shared/NavItem"
 import { useLocation } from "react-router-dom"
 import { useNavEvents } from "../../hooks/useNavEvents"
-import { useContext, useEffect } from "react"
-import { SectionContext } from "../../context/SectionContext"
 import navbarData from "../../data/navbar"
 
 export const Navigation = () => {
-  const { currentSection } = useContext(SectionContext)
   const location = useLocation()
 
   const getIndexOfCurrentPage = () => {
@@ -25,32 +22,6 @@ export const Navigation = () => {
   }
 
   useNavEvents(getIndexOfCurrentPage())
-
-  useEffect(() => {
-    let element = null
-
-    const handleScroll = () => {
-      if (element) {
-        const scrollTop = element.scrollTop
-        const scrollBottom = element.scrollHeight - element.clientHeight - scrollTop
-
-        console.log('Scroll Top:', scrollTop)
-        console.log('Scroll Bottom:', scrollBottom)
-      }
-    }
-    
-    if (currentSection) {
-      element = currentSection.current
-      const pageScroll = element.scrollHeight - element.clientHeight > 0 ? "scroll" : "no-scroll"
-      
-      console.log('Page Scroll:', pageScroll)
-      element.addEventListener('scroll', handleScroll)
-
-      return () => {
-        element.removeEventListener('scroll', handleScroll)
-      }
-    }
-  }, [currentSection])
 
   return (
     <nav className="fixed right-6 top-[50%] translate-y-[-50%] opacity-25 hover:opacity-100 z-10">
