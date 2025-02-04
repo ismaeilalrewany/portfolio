@@ -1,13 +1,22 @@
 import { useTitle } from '../hooks/useTitle'
 import { Galaxy } from '../components/shared/Galaxy'
 import { Stars } from '../components/shared/Stars'
+import { useRef, useContext, useEffect } from 'react'
+import { SectionContext } from '../context/SectionContext'
 import skillsData from "../data/skills.json"
 
 export const Skills = () => {
+  const section = useRef(null)
+  const { setCurrentSection } = useContext(SectionContext)
+
   useTitle("Ismaeil Alreweny | Skills")
 
+  useEffect(() => {
+    setCurrentSection(section)
+  }, [setCurrentSection])
+
   return (
-    <section className="h-screen text-blue-500 bg-black font-NovaSquare pt-[60px] relative">
+    <section className="h-screen text-blue-500 bg-black font-NovaSquare pt-[60px] relative" ref={section}>
       <div className="absolute inset-0 overflow-hidden">
         <Stars />
       </div>

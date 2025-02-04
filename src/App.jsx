@@ -6,6 +6,7 @@ import { Projects } from './pages/Projects'
 import { Contact } from './pages/Contact'
 import { NotFound } from './pages/NotFound'
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
+import { SectionContextProvider } from './context/SectionContextProvider'
 
 const MainLayout = () => (
   <>
@@ -35,7 +36,9 @@ const router = createBrowserRouter([
 export const App = () => {
   return (
     <main className="relative">
-      <RouterProvider router={router} />
+      <SectionContextProvider>
+        <RouterProvider router={router} />
+      </SectionContextProvider>
     </main>
   )
 }
