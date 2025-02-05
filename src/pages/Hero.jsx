@@ -12,6 +12,7 @@ export const Hero = () => {
 
   useEffect(() => {
     setCurrentSection(section)
+    section.current.focus()
   }, [setCurrentSection])
 
   return (

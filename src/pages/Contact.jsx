@@ -17,6 +17,7 @@ export const Contact = () => {
 
   useEffect(() => {
     setCurrentSection(section)
+    section.current.focus()
   }, [setCurrentSection])
 
   return (

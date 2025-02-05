@@ -14,6 +14,7 @@ export const Skills = () => {
 
   useEffect(() => {
     setCurrentSection(section)
+    section.current.focus()
   }, [setCurrentSection])
 
   return (

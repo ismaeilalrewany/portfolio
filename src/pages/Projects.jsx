@@ -13,6 +13,7 @@ export const Projects = () => {
 
   useEffect(() => {
     setCurrentSection(section)
+    section.current.focus()
   }, [setCurrentSection])
 
   return (
