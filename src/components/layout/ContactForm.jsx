@@ -37,7 +37,7 @@ export const ContactForm = () => {
         <Input label="Message" id="message" textarea />
         <Button label="Submit" type="submit" />
       </form>
-      <span className="font-BrunoAceSC text-md text-blue-500" >{result}</span>
+      {/* <span className="font-BrunoAceSC text-md text-blue-500" >{result}</span> */}
     </>
   )
 }

@@ -11,14 +11,11 @@ const socials = [
 ]
 
 export const SocialLinks = () => (
-  <div className="col-span-2">
-    <h2 className="font-Orbitron">Social</h2>
-    <div className="flex gap-4">
-      {socials.map((social, index) => (
-        <a key={index} href={social.href} target="_blank" rel="noreferrer">
-          <social.icon className="w-8 h-8 fill-current text-blue-500" />
-        </a>
-      ))}
-    </div>
+  <div className="flex gap-4">
+    {socials.map((social, index) => (
+      <a key={index} href={social.href} target="_blank" rel="noreferrer">
+        <social.icon className="w-8 h-8 fill-current text-blue-500" />
+      </a>
+    ))}
   </div>
 )
