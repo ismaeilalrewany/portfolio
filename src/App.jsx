@@ -1,4 +1,3 @@
-import { Header } from './components/layout/Header'
 import { Navigation } from './components/layout/Navigation'
 import { Hero } from './pages/Hero'
 import { Skills } from './pages/Skills'
@@ -10,7 +9,6 @@ import { SectionContextProvider } from './context/SectionContextProvider'
 
 const MainLayout = () => (
   <>
-    <Header />
     <Navigation />
     <Outlet />
   </>

@@ -8,7 +8,21 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        "deep-night": "#1a1a2e",
+        "dawn": "#243b55",
+        "lighter-dawn": "#4a69bb",
+        "morning-sky": "#7086d1",
+        "morning-midday": "#8ea6e9",
+        "peak-daylight": "#a7c5eb",
+        "late-afternoon": "#9cb4d9",
+        "sunset-beginning": "#8e94f2",
+        "dusk": "#5c5d8d",
+        "late-dusk": "#2d325a",
+        "day-black": "#1a1a2e",
+        "night-white": "#e8e8ff",
+        
+      },
       fontFamily: {
         Orbitron: ["Orbitron", "sans-serif"],
         NovaSquare: ["Nova Square", "sans-serif"],
