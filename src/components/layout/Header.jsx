@@ -1,4 +1,4 @@
-import SettingIcon from '../../assets/icons/setting-line.svg?react'
+import AutoSettingsIcon from '../../assets/icons/auto-settings-line.svg?react'
 import { Hour } from '../shared/Hour'
 
 export const Header = () => {
@@ -37,8 +37,8 @@ export const Header = () => {
             <Hour key={index} isActive={hour.isActive} isFilled={hour.isFilled} />
           ))}
         </div>
-        <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center cursor-pointer opacity-25 hover:opacity-100">
-          <SettingIcon className="w-8 h-8 fill-current text-blue-500" />
+        <div className="p-1 rounded-full bg-white flex items-center justify-center cursor-pointer opacity-25 hover:opacity-100">
+          <AutoSettingsIcon className="w-8 h-8 fill-current text-blue-500" />
         </div>
       </div>
     </header>
