@@ -1,13 +1,16 @@
 import { Header } from "../components/layout/Header"
 import { useTitle } from "../hooks/useTitle"
 import { Button } from "../components/shared/Button"
+import { Footer } from "../components/layout/Footer"
 import { useRef, useContext, useEffect } from "react"
 import { SectionContext } from "../context/SectionContext"
-import { Footer } from "../components/layout/Footer"
+import { useTheme } from "../hooks/useTheme"
+// import themesData from "../data/themes.json"
 
 export const Hero = () => {
   const section = useRef(null)
   const { setCurrentSection } = useContext(SectionContext)
+  const { selectedHour } = useTheme()
 
   useTitle("Ismaeil Alrewany | Front-end Web Developer")
 
@@ -26,7 +29,7 @@ export const Hero = () => {
             <p className="md:text-[24px] lg:text-[32px]">I&apos;m a Front-end Web Developer</p>
             <Button label="Download CV" />
             <div className="absolute bottom-6">
-              
+              {selectedHour}
             </div>
           </div>
           <Footer />

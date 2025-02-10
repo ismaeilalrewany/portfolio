@@ -6,6 +6,7 @@ import { Contact } from './pages/Contact'
 import { NotFound } from './pages/NotFound'
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
 import { SectionContextProvider } from './context/SectionContextProvider'
+import { ThemeContextProvider } from './context/ThemeContextProvider'
 
 const MainLayout = () => (
   <>
@@ -35,7 +36,9 @@ export const App = () => {
   return (
     <main className="relative">
       <SectionContextProvider>
-        <RouterProvider router={router} />
+        <ThemeContextProvider>
+          <RouterProvider router={router} />
+        </ThemeContextProvider>
       </SectionContextProvider>
     </main>
   )

@@ -1,39 +1,11 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Hour } from '../shared/Hour'
+import { useTheme } from "../../hooks/useTheme"
 import themesData from '../../data/themes.json'
 
 export const Header = () => {
   const [hoveredHour, setHoveredHour] = useState(null)
-  const [selectedHour, setSelectedHour] = useState(() => {
-    sessionStorage.removeItem('selectedHour')
-    return new Date().getHours()
-  })
-  const [isAutoHour, setIsAutoHour] = useState(true)
-
-  useEffect(() => {
-    const storedHour = sessionStorage.getItem('selectedHour')
-    const initialHour = storedHour ? Number(storedHour) : new Date().getHours()
-
-    setSelectedHour(initialHour)
-    setIsAutoHour(!storedHour)
-
-    const timer = setInterval(() => {
-      if (isAutoHour) {
-        const currentHour = new Date().getHours()
-        if (currentHour !== selectedHour) {
-          setSelectedHour(currentHour)
-          sessionStorage.removeItem('selectedHour')
-        }
-      }
-    }, 60000)
-
-    return () => clearInterval(timer)
-  }, [isAutoHour, selectedHour])
-
-  const handleSelectedHour = (hour) => {
-    setSelectedHour(hour)
-    sessionStorage.setItem('selectedHour', hour.toString())
-  }
+  const { selectedHour, handleHourChange } = useTheme()
 
   const iterateHours = (hours) => {
     return Object.keys(hours).map((hour) => {
@@ -45,7 +17,7 @@ export const Header = () => {
           hoveredHour={hoveredHour}
           onMouseEnter={() => setHoveredHour(hourNumber)}
           onMouseLeave={() => setHoveredHour(null)}
-          onClick={() => handleSelectedHour(hourNumber)}
+          onClick={() => handleHourChange(hourNumber)}
           selectedHour={selectedHour}
         />
       )
