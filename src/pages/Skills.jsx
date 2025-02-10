@@ -1,14 +1,14 @@
 import { useTitle } from '../hooks/useTitle'
 import { Galaxy } from '../components/shared/Galaxy'
 import { Stars } from '../components/shared/Stars'
-import { useRef, useContext, useEffect } from 'react'
-import { SectionContext } from '../context/SectionContext'
+import { useRef, useEffect } from 'react'
 import { Footer } from '../components/layout/Footer'
+import { useSection } from '../hooks/useSection'
 import skillsData from "../data/skills.json"
 
 export const Skills = () => {
   const section = useRef(null)
-  const { setCurrentSection } = useContext(SectionContext)
+  const { setCurrentSection } = useSection()
 
   useTitle("Ismaeil Alreweny | Skills")
 

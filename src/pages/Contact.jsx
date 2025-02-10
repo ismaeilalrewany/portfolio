@@ -1,16 +1,16 @@
+import { useRef, useEffect } from "react"
 import { ContactNavList } from "../components/shared/ContactNavList"
 import { About } from "../components/layout/About"
 import { ContactForm } from "../components/layout/ContactForm"
 import { Footer } from "../components/layout/Footer"
 import { useTitle } from "../hooks/useTitle"
-import { useRef, useContext, useEffect } from "react"
-import { SectionContext } from "../context/SectionContext"
+import { useSection } from "../hooks/useSection"
 import navbarData from "../data/navbar.json"
 import projectsData from "../data/projects.json"
 
 export const Contact = () => {
   const section = useRef(null)
-  const { setCurrentSection } = useContext(SectionContext)
+  const { setCurrentSection } = useSection()
   const aboutContent = "I am Ismaeil Alrewany, I am a web developer and designer with a passion..."
 
   useTitle("Ismaeil Alreweny | Contact")

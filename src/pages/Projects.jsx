@@ -1,13 +1,13 @@
-import { useTitle } from "../hooks/useTitle"
-import projectsData from "../data/projects.json"
+import { useRef, useEffect } from "react"
 import { Card } from "../components/shared/Card"
-import { useRef, useContext, useEffect } from "react"
-import { SectionContext } from "../context/SectionContext"
 import { Footer } from "../components/layout/Footer"
+import { useTitle } from "../hooks/useTitle"
+import { useSection } from "../hooks/useSection"
+import projectsData from "../data/projects.json"
 
 export const Projects = () => {
   const section = useRef(null)
-  const { setCurrentSection } = useContext(SectionContext)
+  const { setCurrentSection } = useSection()
 
   useTitle("Ismaeil Alrewany | Projects")
 

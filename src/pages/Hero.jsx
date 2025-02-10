@@ -2,14 +2,14 @@ import { Header } from "../components/layout/Header"
 import { useTitle } from "../hooks/useTitle"
 import { Button } from "../components/shared/Button"
 import { Footer } from "../components/layout/Footer"
-import { useRef, useContext, useEffect } from "react"
-import { SectionContext } from "../context/SectionContext"
+import { useRef, useEffect } from "react"
+import { useSection } from "../hooks/useSection"
 import { useTheme } from "../hooks/useTheme"
 // import themesData from "../data/themes.json"
 
 export const Hero = () => {
   const section = useRef(null)
-  const { setCurrentSection } = useContext(SectionContext)
+  const { setCurrentSection } = useSection()
   const { selectedHour } = useTheme()
 
   useTitle("Ismaeil Alrewany | Front-end Web Developer")
