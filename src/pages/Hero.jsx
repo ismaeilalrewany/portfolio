@@ -18,10 +18,10 @@ export const Hero = () => {
 
   return (
     <>
-      <Header />
       <section className="h-screen bg-gray-600 text-blue-500 font-NovaSquare relative overflow-x-hidden overflow-y-auto scrollbar-thin scrollbar-track-gray-400 scrollbar-thumb-slate-500" ref={section}>
         <div className="h-full flex flex-col">
-          <div className="container flex-grow px-2 py-[60px] mx-auto flex flex-col justify-center items-center">
+          <Header />
+          <div className="container px-2 mx-auto flex-grow flex flex-col justify-center items-center">
             <h1 className="text-[32px] sm:text-[48px] md:text-[64px] lg:text-[96px] font-medium font-Orbitron">Ismaeil Alrewany</h1>
             <p className="md:text-[24px] lg:text-[32px]">I&apos;m a Front-end Web Developer</p>
             <Button label="Download CV" />

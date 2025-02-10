@@ -1,44 +1,23 @@
-import AutoSettingsIcon from '../../assets/icons/auto-settings-line.svg?react'
+import themesData from '../../data/themes.json'
 import { Hour } from '../shared/Hour'
 
 export const Header = () => {
-  const hours = [
-    { isActive: false, isFilled: true },
-    { isActive: false, isFilled: true },
-    { isActive: false, isFilled: true },
-    { isActive: false, isFilled: true },
-    { isActive: false, isFilled: true },
-    { isActive: false, isFilled: true },
-    { isActive: false, isFilled: true },
-    { isActive: false, isFilled: false },
-    { isActive: false, isFilled: false },
-    { isActive: false, isFilled: false },
-    { isActive: false, isFilled: false },
-    { isActive: false, isFilled: false },
-    { isActive: true, isFilled: false },
-    { isActive: false, isFilled: false },
-    { isActive: false, isFilled: false },
-    { isActive: false, isFilled: false },
-    { isActive: false, isFilled: false },
-    { isActive: false, isFilled: true },
-    { isActive: false, isFilled: true },
-    { isActive: false, isFilled: true },
-    { isActive: false, isFilled: true },
-    { isActive: false, isFilled: true },
-    { isActive: false, isFilled: true },
-    { isActive: false, isFilled: true },
-  ]
+
+  const iterateHours = (hours) => {
+    return Object.keys(hours).map((hour) => {
+      const hourNumber = Number(hour)
+
+      return <Hour key={hours[hour].id} hour={hourNumber} />
+    })
+  }
 
   return (
-    <header className="fixed top-6 left-[50%] translate-x-[-50%] text-center z-10">
-      <div className="grid grid-flow-col auto-cols-auto gap-4">
-        <div className="flex justify-center items-center min-w-[204px] w-auto h-10 bg-white p-2 rounded-full overflow-hidden opacity-25 hover:opacity-100">
-          {hours.map((hour, index) => (
-            <Hour key={index} isActive={hour.isActive} isFilled={hour.isFilled} />
-          ))}
-        </div>
-        <div className="p-1 rounded-full bg-white flex items-center justify-center cursor-pointer opacity-25 hover:opacity-100">
-          <AutoSettingsIcon className="w-8 h-8 fill-current text-blue-500" />
+    <header className="text-center">
+      <div className="container px-2 py-4 mx-auto">
+        <div className="flex justify-center items-end min-w-[204px] w-auto h-10">
+          {
+            iterateHours(themesData.hours)
+          }
         </div>
       </div>
     </header>

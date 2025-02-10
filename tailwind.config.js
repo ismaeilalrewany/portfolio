@@ -19,8 +19,8 @@ export default {
         "sunset-beginning": "#8e94f2",
         "dusk": "#5c5d8d",
         "late-dusk": "#2d325a",
-        "day-black": "#1a1a2e",
-        "night-white": "#e8e8ff",
+        "dark-space": "#1a1a2e",
+        "soft-white": "#e8e8ff",
         
       },
       fontFamily: {

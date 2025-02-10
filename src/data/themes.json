@@ -1,0 +1,174 @@
+{
+  "hours": {
+    "1": {
+      "id": "H1",
+      "colors": {
+        "background": "deep-night",
+        "text": "soft-white"
+      }
+    },
+    "2": {
+      "id": "H2",
+      "colors": {
+        "background": "deep-night",
+        "text": "soft-white"
+      }
+    },
+    "3": {
+      "id": "H3",
+      "colors": {
+        "background": "deep-night",
+        "text": "soft-white"
+      }
+    },
+    "4": {
+      "id": "H4",
+      "colors": {
+        "background": "deep-night",
+        "text": "soft-white"
+      }
+    },
+    "5": {
+      "id": "H5",
+      "colors": {
+        "background": "deep-night",
+        "text": "soft-white"
+      }
+    },
+    "6": {
+      "id": "H6",
+      "colors": {
+        "background": "dawn",
+        "text": "soft-white"
+      }
+    },
+    "7": {
+      "id": "H7",
+      "colors": {
+        "background": "lighter-dawn",
+        "text": "soft-white"
+      }
+    },
+    "8": {
+      "id": "H8",
+      "colors": {
+        "background": "morning-sky",
+        "text": "soft-white"
+      }
+    },
+    "9": {
+      "id": "H9",
+      "colors": {
+        "background": "morning-midday",
+        "text": "dark-space"
+      }
+    },
+    "10": {
+      "id": "H10",
+      "colors": {
+        "background": "peak-daylight",
+        "text": "dark-space"
+      }
+    },
+    "11": {
+      "id": "H11",
+      "colors": {
+        "background": "peak-daylight",
+        "text": "dark-space"
+      }
+    },
+    "12": {
+      "id": "H12",
+      "colors": {
+        "background": "peak-daylight",
+        "text": "dark-space"
+      }
+    },
+    "13": {
+      "id": "H13",
+      "colors": {
+        "background": "peak-daylight",
+        "text": "dark-space"
+      }
+    },
+    "14": {
+      "id": "H14",
+      "colors": {
+        "background": "peak-daylight",
+        "text": "dark-space"
+      }
+    },
+    "15": {
+      "id": "H15",
+      "colors": {
+        "background": "peak-daylight",
+        "text": "dark-space"
+      }
+    },
+    "16": {
+      "id": "H16",
+      "colors": {
+        "background": "peak-daylight",
+        "text": "dark-space"
+      }
+    },
+    "17": {
+      "id": "H17",
+      "colors": {
+        "background": "late-afternoon",
+        "text": "soft-white"
+      }
+    },
+    "18": {
+      "id": "H18",
+      "colors": {
+        "background": "sunset-beginning",
+        "text": "soft-white"
+      }
+    },
+    "19": {
+      "id": "H19",
+      "colors": {
+        "background": "dusk",
+        "text": "soft-white"
+      }
+    },
+    "20": {
+      "id": "H20",
+      "colors": {
+        "background": "late-dusk",
+        "text": "soft-white"
+      }
+    },
+    "21": {
+      "id": "H21",
+      "colors": {
+        "background": "deep-night",
+        "text": "soft-white"
+      }
+    },
+    "22": {
+      "id": "H22",
+      "colors": {
+        "background": "deep-night",
+        "text": "soft-white"
+      }
+    },
+    "23": {
+      "id": "H23",
+      "colors": {
+        "background": "deep-night",
+        "text": "soft-white"
+      }
+    },
+    "24": {
+      "id": "H24",
+      "colors": {
+        "background": "deep-night",
+        "text": "soft-white"
+      }
+    }
+  },
+  "hoursCount": 24,
+  "colorVariables": 2
+}
