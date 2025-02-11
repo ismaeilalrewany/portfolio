@@ -3,172 +3,220 @@
     "1": {
       "id": "H1",
       "colors": {
-        "background": "deep-night",
-        "text": "soft-white"
+        "background": "bg-deep-night",
+        "text": "text-soft-white",
+        "scrollbar-track": "scrollbar-track-deep-night",
+        "scrollbar-thumb": "scrollbar-thumb-soft-white"
       }
     },
     "2": {
       "id": "H2",
       "colors": {
-        "background": "deep-night",
-        "text": "soft-white"
+        "background": "bg-deep-night",
+        "text": "text-soft-white",
+        "scrollbar-track": "scrollbar-track-deep-night",
+        "scrollbar-thumb": "scrollbar-thumb-soft-white"
       }
     },
     "3": {
       "id": "H3",
       "colors": {
-        "background": "deep-night",
-        "text": "soft-white"
+        "background": "bg-deep-night",
+        "text": "text-soft-white",
+        "scrollbar-track": "scrollbar-track-deep-night",
+        "scrollbar-thumb": "scrollbar-thumb-soft-white"
       }
     },
     "4": {
       "id": "H4",
       "colors": {
-        "background": "deep-night",
-        "text": "soft-white"
+        "background": "bg-deep-night",
+        "text": "text-soft-white",
+        "scrollbar-track": "scrollbar-track-deep-night",
+        "scrollbar-thumb": "scrollbar-thumb-soft-white"
       }
     },
     "5": {
       "id": "H5",
       "colors": {
-        "background": "deep-night",
-        "text": "soft-white"
+        "background": "bg-deep-night",
+        "text": "text-soft-white",
+        "scrollbar-track": "scrollbar-track-deep-night",
+        "scrollbar-thumb": "scrollbar-thumb-soft-white"
       }
     },
     "6": {
       "id": "H6",
       "colors": {
-        "background": "dawn",
-        "text": "soft-white"
+        "background": "bg-dawn",
+        "text": "text-soft-white",
+        "scrollbar-track": "scrollbar-track-dawn",
+        "scrollbar-thumb": "scrollbar-thumb-soft-white"
       }
     },
     "7": {
       "id": "H7",
       "colors": {
-        "background": "lighter-dawn",
-        "text": "soft-white"
+        "background": "bg-lighter-dawn",
+        "text": "text-soft-white",
+        "scrollbar-track": "scrollbar-track-lighter-dawn",
+        "scrollbar-thumb": "scrollbar-thumb-soft-white"
       }
     },
     "8": {
       "id": "H8",
       "colors": {
-        "background": "morning-sky",
-        "text": "soft-white"
+        "background": "bg-morning-sky",
+        "text": "text-soft-white",
+        "scrollbar-track": "scrollbar-track-morning-sky",
+        "scrollbar-thumb": "scrollbar-thumb-soft-white"
       }
     },
     "9": {
       "id": "H9",
       "colors": {
-        "background": "morning-midday",
-        "text": "dark-space"
+        "background": "bg-morning-midday",
+        "text": "text-dark-space",
+        "scrollbar-track": "scrollbar-track-morning-midday",
+        "scrollbar-thumb": "scrollbar-thumb-dark-space"
       }
     },
     "10": {
       "id": "H10",
       "colors": {
-        "background": "peak-daylight",
-        "text": "dark-space"
+        "background": "bg-peak-daylight",
+        "text": "text-dark-space",
+        "scrollbar-track": "scrollbar-track-peak-daylight",
+        "scrollbar-thumb": "scrollbar-thumb-dark-space"
       }
     },
     "11": {
       "id": "H11",
       "colors": {
-        "background": "peak-daylight",
-        "text": "dark-space"
+        "background": "bg-peak-daylight",
+        "text": "text-dark-space",
+        "scrollbar-track": "scrollbar-track-peak-daylight",
+        "scrollbar-thumb": "scrollbar-thumb-dark-space"
       }
     },
     "12": {
       "id": "H12",
       "colors": {
-        "background": "peak-daylight",
-        "text": "dark-space"
+        "background": "bg-peak-daylight",
+        "text": "text-dark-space",
+        "scrollbar-track": "scrollbar-track-peak-daylight",
+        "scrollbar-thumb": "scrollbar-thumb-dark-space"
       }
     },
     "13": {
       "id": "H13",
       "colors": {
-        "background": "peak-daylight",
-        "text": "dark-space"
+        "background": "bg-peak-daylight",
+        "text": "text-dark-space",
+        "scrollbar-track": "scrollbar-track-peak-daylight",
+        "scrollbar-thumb": "scrollbar-thumb-dark-space"
       }
     },
     "14": {
       "id": "H14",
       "colors": {
-        "background": "peak-daylight",
-        "text": "dark-space"
+        "background": "bg-peak-daylight",
+        "text": "text-dark-space",
+        "scrollbar-track": "scrollbar-track-peak-daylight",
+        "scrollbar-thumb": "scrollbar-thumb-dark-space"
       }
     },
     "15": {
       "id": "H15",
       "colors": {
-        "background": "peak-daylight",
-        "text": "dark-space"
+        "background": "bg-peak-daylight",
+        "text": "text-dark-space",
+        "scrollbar-track": "scrollbar-track-peak-daylight",
+        "scrollbar-thumb": "scrollbar-thumb-dark-space"
       }
     },
     "16": {
       "id": "H16",
       "colors": {
-        "background": "peak-daylight",
-        "text": "dark-space"
+        "background": "bg-peak-daylight",
+        "text": "text-dark-space",
+        "scrollbar-track": "scrollbar-track-peak-daylight",
+        "scrollbar-thumb": "scrollbar-thumb-dark-space"
       }
     },
     "17": {
       "id": "H17",
       "colors": {
-        "background": "late-afternoon",
-        "text": "soft-white"
+        "background": "bg-late-afternoon",
+        "text": "text-soft-white",
+        "scrollbar-track": "scrollbar-track-late-afternoon",
+        "scrollbar-thumb": "scrollbar-thumb-soft-white"
       }
     },
     "18": {
       "id": "H18",
       "colors": {
-        "background": "sunset-beginning",
-        "text": "soft-white"
+        "background": "bg-sunset-beginning",
+        "text": "text-soft-white",
+        "scrollbar-track": "scrollbar-track-sunset-beginning",
+        "scrollbar-thumb": "scrollbar-thumb-soft-white"
       }
     },
     "19": {
       "id": "H19",
       "colors": {
-        "background": "dusk",
-        "text": "soft-white"
+        "background": "bg-dusk",
+        "text": "text-soft-white",
+        "scrollbar-track": "scrollbar-track-dusk",
+        "scrollbar-thumb": "scrollbar-thumb-soft-white"
       }
     },
     "20": {
       "id": "H20",
       "colors": {
-        "background": "late-dusk",
-        "text": "soft-white"
+        "background": "bg-late-dusk",
+        "text": "text-soft-white",
+        "scrollbar-track": "scrollbar-track-late-dusk",
+        "scrollbar-thumb": "scrollbar-thumb-soft-white"
       }
     },
     "21": {
       "id": "H21",
       "colors": {
-        "background": "deep-night",
-        "text": "soft-white"
+        "background": "bg-deep-night",
+        "text": "text-soft-white",
+        "scrollbar-track": "scrollbar-track-deep-night",
+        "scrollbar-thumb": "scrollbar-thumb-soft-white"
       }
     },
     "22": {
       "id": "H22",
       "colors": {
-        "background": "deep-night",
-        "text": "soft-white"
+        "background": "bg-deep-night",
+        "text": "text-soft-white",
+        "scrollbar-track": "scrollbar-track-deep-night",
+        "scrollbar-thumb": "scrollbar-thumb-soft-white"
       }
     },
     "23": {
       "id": "H23",
       "colors": {
-        "background": "deep-night",
-        "text": "soft-white"
+        "background": "bg-deep-night",
+        "text": "text-soft-white",
+        "scrollbar-track": "scrollbar-track-deep-night",
+        "scrollbar-thumb": "scrollbar-thumb-soft-white"
       }
     },
     "24": {
       "id": "H24",
       "colors": {
-        "background": "deep-night",
-        "text": "soft-white"
+        "background": "bg-deep-night",
+        "text": "text-soft-white",
+        "scrollbar-track": "scrollbar-track-deep-night",
+        "scrollbar-thumb": "scrollbar-thumb-soft-white"
       }
     }
   },
   "hoursCount": 24,
-  "colorVariables": 2
+  "colorVariables": 4
 }

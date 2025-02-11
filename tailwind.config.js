@@ -6,6 +6,32 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    'bg-deep-night',
+    'bg-dawn',
+    'bg-lighter-dawn',
+    'bg-morning-sky',
+    'bg-morning-midday',
+    'bg-peak-daylight',
+    'bg-late-afternoon',
+    'bg-sunset-beginning',
+    'bg-dusk',
+    'bg-late-dusk',
+    'text-dark-space',
+    'text-soft-white',
+    'scrollbar-track-deep-night',
+    'scrollbar-track-dawn',
+    'scrollbar-track-lighter-dawn',
+    'scrollbar-track-morning-sky',
+    'scrollbar-track-morning-midday',
+    'scrollbar-track-peak-daylight',
+    'scrollbar-track-late-afternoon',
+    'scrollbar-track-sunset-beginning',
+    'scrollbar-track-dusk',
+    'scrollbar-track-late-dusk',
+    'scrollbar-thumb-dark-space',
+    'scrollbar-thumb-soft-white'
+  ],
   theme: {
     extend: {
       colors: {
@@ -21,7 +47,6 @@ export default {
         "late-dusk": "#2d325a",
         "dark-space": "#1a1a2e",
         "soft-white": "#e8e8ff",
-        
       },
       fontFamily: {
         Orbitron: ["Orbitron", "sans-serif"],
