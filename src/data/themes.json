@@ -6,7 +6,9 @@
         "background": "bg-deep-night",
         "text": "text-soft-white",
         "scrollbar-track": "scrollbar-track-deep-night",
-        "scrollbar-thumb": "scrollbar-thumb-soft-white"
+        "scrollbar-thumb": "scrollbar-thumb-soft-white",
+        "hour-background": "bg-soft-white",
+        "hour-icon-color": "text-dark-space"
       }
     },
     "2": {
@@ -15,7 +17,9 @@
         "background": "bg-deep-night",
         "text": "text-soft-white",
         "scrollbar-track": "scrollbar-track-deep-night",
-        "scrollbar-thumb": "scrollbar-thumb-soft-white"
+        "scrollbar-thumb": "scrollbar-thumb-soft-white",
+        "hour-background": "bg-soft-white",
+        "hour-icon-color": "text-dark-space"
       }
     },
     "3": {
@@ -24,7 +28,9 @@
         "background": "bg-deep-night",
         "text": "text-soft-white",
         "scrollbar-track": "scrollbar-track-deep-night",
-        "scrollbar-thumb": "scrollbar-thumb-soft-white"
+        "scrollbar-thumb": "scrollbar-thumb-soft-white",
+        "hour-background": "bg-soft-white",
+        "hour-icon-color": "text-dark-space"
       }
     },
     "4": {
@@ -33,7 +39,9 @@
         "background": "bg-deep-night",
         "text": "text-soft-white",
         "scrollbar-track": "scrollbar-track-deep-night",
-        "scrollbar-thumb": "scrollbar-thumb-soft-white"
+        "scrollbar-thumb": "scrollbar-thumb-soft-white",
+        "hour-background": "bg-soft-white",
+        "hour-icon-color": "text-dark-space"
       }
     },
     "5": {
@@ -42,7 +50,9 @@
         "background": "bg-deep-night",
         "text": "text-soft-white",
         "scrollbar-track": "scrollbar-track-deep-night",
-        "scrollbar-thumb": "scrollbar-thumb-soft-white"
+        "scrollbar-thumb": "scrollbar-thumb-soft-white",
+        "hour-background": "bg-soft-white",
+        "hour-icon-color": "text-dark-space"
       }
     },
     "6": {
@@ -51,25 +61,31 @@
         "background": "bg-dawn",
         "text": "text-soft-white",
         "scrollbar-track": "scrollbar-track-dawn",
-        "scrollbar-thumb": "scrollbar-thumb-soft-white"
+        "scrollbar-thumb": "scrollbar-thumb-soft-white",
+        "hour-background": "bg-soft-white",
+        "hour-icon-color": "text-dark-space"
       }
     },
     "7": {
       "id": "H7",
       "colors": {
         "background": "bg-lighter-dawn",
-        "text": "text-soft-white",
+        "text": "text-dark-space",
         "scrollbar-track": "scrollbar-track-lighter-dawn",
-        "scrollbar-thumb": "scrollbar-thumb-soft-white"
+        "scrollbar-thumb": "scrollbar-thumb-dark-space",
+        "hour-background": "bg-dark-space",
+        "hour-icon-color": "text-soft-white"
       }
     },
     "8": {
       "id": "H8",
       "colors": {
         "background": "bg-morning-sky",
-        "text": "text-soft-white",
+        "text": "text-dark-space",
         "scrollbar-track": "scrollbar-track-morning-sky",
-        "scrollbar-thumb": "scrollbar-thumb-soft-white"
+        "scrollbar-thumb": "scrollbar-thumb-dark-space",
+        "hour-background": "bg-dark-space",
+        "hour-icon-color": "text-soft-white"
       }
     },
     "9": {
@@ -78,7 +94,9 @@
         "background": "bg-morning-midday",
         "text": "text-dark-space",
         "scrollbar-track": "scrollbar-track-morning-midday",
-        "scrollbar-thumb": "scrollbar-thumb-dark-space"
+        "scrollbar-thumb": "scrollbar-thumb-dark-space",
+        "hour-background": "bg-dark-space",
+        "hour-icon-color": "text-soft-white"
       }
     },
     "10": {
@@ -87,7 +105,9 @@
         "background": "bg-peak-daylight",
         "text": "text-dark-space",
         "scrollbar-track": "scrollbar-track-peak-daylight",
-        "scrollbar-thumb": "scrollbar-thumb-dark-space"
+        "scrollbar-thumb": "scrollbar-thumb-dark-space",
+        "hour-background": "bg-dark-space",
+        "hour-icon-color": "text-soft-white"
       }
     },
     "11": {
@@ -96,7 +116,9 @@
         "background": "bg-peak-daylight",
         "text": "text-dark-space",
         "scrollbar-track": "scrollbar-track-peak-daylight",
-        "scrollbar-thumb": "scrollbar-thumb-dark-space"
+        "scrollbar-thumb": "scrollbar-thumb-dark-space",
+        "hour-background": "bg-dark-space",
+        "hour-icon-color": "text-soft-white"
       }
     },
     "12": {
@@ -105,7 +127,9 @@
         "background": "bg-peak-daylight",
         "text": "text-dark-space",
         "scrollbar-track": "scrollbar-track-peak-daylight",
-        "scrollbar-thumb": "scrollbar-thumb-dark-space"
+        "scrollbar-thumb": "scrollbar-thumb-dark-space",
+        "hour-background": "bg-dark-space",
+        "hour-icon-color": "text-soft-white"
       }
     },
     "13": {
@@ -114,7 +138,9 @@
         "background": "bg-peak-daylight",
         "text": "text-dark-space",
         "scrollbar-track": "scrollbar-track-peak-daylight",
-        "scrollbar-thumb": "scrollbar-thumb-dark-space"
+        "scrollbar-thumb": "scrollbar-thumb-dark-space",
+        "hour-background": "bg-dark-space",
+        "hour-icon-color": "text-soft-white"
       }
     },
     "14": {
@@ -123,7 +149,9 @@
         "background": "bg-peak-daylight",
         "text": "text-dark-space",
         "scrollbar-track": "scrollbar-track-peak-daylight",
-        "scrollbar-thumb": "scrollbar-thumb-dark-space"
+        "scrollbar-thumb": "scrollbar-thumb-dark-space",
+        "hour-background": "bg-dark-space",
+        "hour-icon-color": "text-soft-white"
       }
     },
     "15": {
@@ -132,7 +160,9 @@
         "background": "bg-peak-daylight",
         "text": "text-dark-space",
         "scrollbar-track": "scrollbar-track-peak-daylight",
-        "scrollbar-thumb": "scrollbar-thumb-dark-space"
+        "scrollbar-thumb": "scrollbar-thumb-dark-space",
+        "hour-background": "bg-dark-space",
+        "hour-icon-color": "text-soft-white"
       }
     },
     "16": {
@@ -141,25 +171,31 @@
         "background": "bg-peak-daylight",
         "text": "text-dark-space",
         "scrollbar-track": "scrollbar-track-peak-daylight",
-        "scrollbar-thumb": "scrollbar-thumb-dark-space"
+        "scrollbar-thumb": "scrollbar-thumb-dark-space",
+        "hour-background": "bg-dark-space",
+        "hour-icon-color": "text-soft-white"
       }
     },
     "17": {
       "id": "H17",
       "colors": {
         "background": "bg-late-afternoon",
-        "text": "text-soft-white",
+        "text": "text-dark-space",
         "scrollbar-track": "scrollbar-track-late-afternoon",
-        "scrollbar-thumb": "scrollbar-thumb-soft-white"
+        "scrollbar-thumb": "scrollbar-thumb-dark-space",
+        "hour-background": "bg-dark-space",
+        "hour-icon-color": "text-soft-white"
       }
     },
     "18": {
       "id": "H18",
       "colors": {
         "background": "bg-sunset-beginning",
-        "text": "text-soft-white",
+        "text": "text-dark-space",
         "scrollbar-track": "scrollbar-track-sunset-beginning",
-        "scrollbar-thumb": "scrollbar-thumb-soft-white"
+        "scrollbar-thumb": "scrollbar-thumb-dark-space",
+        "hour-background": "bg-dark-space",
+        "hour-icon-color": "text-soft-white"
       }
     },
     "19": {
@@ -168,7 +204,9 @@
         "background": "bg-dusk",
         "text": "text-soft-white",
         "scrollbar-track": "scrollbar-track-dusk",
-        "scrollbar-thumb": "scrollbar-thumb-soft-white"
+        "scrollbar-thumb": "scrollbar-thumb-soft-white",
+        "hour-background": "bg-soft-white",
+        "hour-icon-color": "text-dark-space"
       }
     },
     "20": {
@@ -177,7 +215,9 @@
         "background": "bg-late-dusk",
         "text": "text-soft-white",
         "scrollbar-track": "scrollbar-track-late-dusk",
-        "scrollbar-thumb": "scrollbar-thumb-soft-white"
+        "scrollbar-thumb": "scrollbar-thumb-soft-white",
+        "hour-background": "bg-soft-white",
+        "hour-icon-color": "text-dark-space"
       }
     },
     "21": {
@@ -186,7 +226,9 @@
         "background": "bg-deep-night",
         "text": "text-soft-white",
         "scrollbar-track": "scrollbar-track-deep-night",
-        "scrollbar-thumb": "scrollbar-thumb-soft-white"
+        "scrollbar-thumb": "scrollbar-thumb-soft-white",
+        "hour-background": "bg-soft-white",
+        "hour-icon-color": "text-dark-space"
       }
     },
     "22": {
@@ -195,7 +237,9 @@
         "background": "bg-deep-night",
         "text": "text-soft-white",
         "scrollbar-track": "scrollbar-track-deep-night",
-        "scrollbar-thumb": "scrollbar-thumb-soft-white"
+        "scrollbar-thumb": "scrollbar-thumb-soft-white",
+        "hour-background": "bg-soft-white",
+        "hour-icon-color": "text-dark-space"
       }
     },
     "23": {
@@ -204,7 +248,9 @@
         "background": "bg-deep-night",
         "text": "text-soft-white",
         "scrollbar-track": "scrollbar-track-deep-night",
-        "scrollbar-thumb": "scrollbar-thumb-soft-white"
+        "scrollbar-thumb": "scrollbar-thumb-soft-white",
+        "hour-background": "bg-soft-white",
+        "hour-icon-color": "text-dark-space"
       }
     },
     "24": {
@@ -213,10 +259,12 @@
         "background": "bg-deep-night",
         "text": "text-soft-white",
         "scrollbar-track": "scrollbar-track-deep-night",
-        "scrollbar-thumb": "scrollbar-thumb-soft-white"
+        "scrollbar-thumb": "scrollbar-thumb-soft-white",
+        "hour-background": "bg-soft-white",
+        "hour-icon-color": "text-dark-space"
       }
     }
   },
   "hoursCount": 24,
-  "colorVariables": 4
+  "colorVariables": 6
 }

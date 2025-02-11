@@ -17,6 +17,8 @@ export default {
     'bg-sunset-beginning',
     'bg-dusk',
     'bg-late-dusk',
+    'bg-dark-space',
+    'bg-soft-white',
     'text-dark-space',
     'text-soft-white',
     'scrollbar-track-deep-night',
