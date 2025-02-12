@@ -11,16 +11,16 @@ const socials = [
   { icon: WhatsAppIcon, href: "https://wa.me/201097227910" }
 ]
 
-export const SocialLinks = ({color}) => (
+export const SocialLinks = ({textColor}) => (
   <div className="flex gap-4">
     {socials.map((social, index) => (
-      <a key={index} href={social.href} target="_blank" rel="noreferrer">
-        <social.icon className={`w-8 h-8 fill-current ${color}`} />
+      <a key={`M${index}`} href={social.href} target="_blank" rel="noreferrer">
+        <social.icon className={`w-4 md:w-6 h-4 md:h-6 fill-current ${textColor}`} />
       </a>
     ))}
   </div>
 )
 
 SocialLinks.propTypes = {
-  color: propTypes.string.isRequired,
+  textColor: propTypes.string,
 }

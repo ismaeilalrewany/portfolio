@@ -33,7 +33,7 @@ export const Hero = () => {
               
             </div>
           </div>
-          <Footer />
+          <Footer textColor={theme.text}/>
         </div>
       </section>
     </>
