@@ -2,6 +2,7 @@ import LinkedInIcon from "../../assets/icons/linkedin-alt-line.svg?react"
 import GitHubIcon from "../../assets/icons/github-alt-line.svg?react"
 import GmailIcon from "../../assets/icons/envelope-alt-line.svg?react"
 import WhatsAppIcon from "../../assets/icons/whatsapp-line.svg?react"
+import propTypes from "prop-types"
 
 const socials = [
   { icon: LinkedInIcon, href: "https://www.linkedin.com/in/ismaeil-alrewany/" },
@@ -10,12 +11,16 @@ const socials = [
   { icon: WhatsAppIcon, href: "https://wa.me/201097227910" }
 ]
 
-export const SocialLinks = () => (
+export const SocialLinks = ({color}) => (
   <div className="flex gap-4">
     {socials.map((social, index) => (
       <a key={index} href={social.href} target="_blank" rel="noreferrer">
-        <social.icon className="w-8 h-8 fill-current text-blue-500" />
+        <social.icon className={`w-8 h-8 fill-current ${color}`} />
       </a>
     ))}
   </div>
 )
+
+SocialLinks.propTypes = {
+  color: propTypes.string.isRequired,
+}
