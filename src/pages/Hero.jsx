@@ -22,7 +22,7 @@ export const Hero = () => {
 
   return (
     <>
-      <section className={`h-screen ${theme.background} ${theme.text} font-NovaSquare relative overflow-x-hidden overflow-y-auto scrollbar-thin ${theme["scrollbar-track"]} ${theme["scrollbar-thumb"]}`} ref={section}>
+      <section className={`h-screen transition-colors ${theme.background} ${theme.text} font-NovaSquare relative overflow-x-hidden overflow-y-auto scrollbar-thin ${theme["scrollbar-track"]} ${theme["scrollbar-thumb"]}`} ref={section}>
         <div className="flex flex-col h-full">
           <Header />
           <div className="container px-2 mx-auto flex-grow flex flex-col justify-center items-center">
