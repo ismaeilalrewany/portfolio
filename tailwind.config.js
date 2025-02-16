@@ -19,8 +19,14 @@ export default {
     'bg-late-dusk',
     'bg-dark-space',
     'bg-soft-white',
+    'before:bg-dark-space',
+    'before:bg-soft-white',
+    'after:bg-dark-space',
+    'after:bg-soft-white',
     'text-dark-space',
     'text-soft-white',
+    'border-dark-space',
+    'border-soft-white',
     'scrollbar-track-deep-night',
     'scrollbar-track-dawn',
     'scrollbar-track-lighter-dawn',
@@ -32,7 +38,7 @@ export default {
     'scrollbar-track-dusk',
     'scrollbar-track-late-dusk',
     'scrollbar-thumb-dark-space',
-    'scrollbar-thumb-soft-white'
+    'scrollbar-thumb-soft-white',
   ],
   theme: {
     extend: {
@@ -94,7 +100,7 @@ export default {
           '0%': {opacity: '0.95'},
           '50%': {opacity: '0.99'},
           '100%': {opacity: '0.95'},
-        }
+        },
       },
       animation: {
         'smoke-1': 'smoke 4s cubic-bezier(0.4, 0, 0.2, 1) infinite backwards',

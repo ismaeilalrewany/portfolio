@@ -8,7 +8,10 @@
         "scrollbar-track": "scrollbar-track-deep-night",
         "scrollbar-thumb": "scrollbar-thumb-soft-white",
         "hour-background": "bg-soft-white",
-        "hour-icon-color": "text-dark-space"
+        "hour-icon-color": "text-dark-space",
+        "before-background": "before:bg-soft-white",
+        "after-background": "after:bg-soft-white",
+        "border": "border-soft-white"
       }
     },
     "2": {
@@ -19,7 +22,10 @@
         "scrollbar-track": "scrollbar-track-deep-night",
         "scrollbar-thumb": "scrollbar-thumb-soft-white",
         "hour-background": "bg-soft-white",
-        "hour-icon-color": "text-dark-space"
+        "hour-icon-color": "text-dark-space",
+        "before-background": "before:bg-soft-white",
+        "after-background": "after:bg-soft-white",
+        "border": "border-soft-white"
       }
     },
     "3": {
@@ -30,7 +36,10 @@
         "scrollbar-track": "scrollbar-track-deep-night",
         "scrollbar-thumb": "scrollbar-thumb-soft-white",
         "hour-background": "bg-soft-white",
-        "hour-icon-color": "text-dark-space"
+        "hour-icon-color": "text-dark-space",
+        "before-background": "before:bg-soft-white",
+        "after-background": "after:bg-soft-white",
+        "border": "border-soft-white"
       }
     },
     "4": {
@@ -41,7 +50,10 @@
         "scrollbar-track": "scrollbar-track-deep-night",
         "scrollbar-thumb": "scrollbar-thumb-soft-white",
         "hour-background": "bg-soft-white",
-        "hour-icon-color": "text-dark-space"
+        "hour-icon-color": "text-dark-space",
+        "before-background": "before:bg-soft-white",
+        "after-background": "after:bg-soft-white",
+        "border": "border-soft-white"
       }
     },
     "5": {
@@ -52,7 +64,10 @@
         "scrollbar-track": "scrollbar-track-deep-night",
         "scrollbar-thumb": "scrollbar-thumb-soft-white",
         "hour-background": "bg-soft-white",
-        "hour-icon-color": "text-dark-space"
+        "hour-icon-color": "text-dark-space",
+        "before-background": "before:bg-soft-white",
+        "after-background": "after:bg-soft-white",
+        "border": "border-soft-white"
       }
     },
     "6": {
@@ -63,7 +78,10 @@
         "scrollbar-track": "scrollbar-track-dawn",
         "scrollbar-thumb": "scrollbar-thumb-soft-white",
         "hour-background": "bg-soft-white",
-        "hour-icon-color": "text-dark-space"
+        "hour-icon-color": "text-dark-space",
+        "before-background": "before:bg-soft-white",
+        "after-background": "after:bg-soft-white",
+        "border": "border-soft-white"
       }
     },
     "7": {
@@ -74,7 +92,10 @@
         "scrollbar-track": "scrollbar-track-lighter-dawn",
         "scrollbar-thumb": "scrollbar-thumb-dark-space",
         "hour-background": "bg-dark-space",
-        "hour-icon-color": "text-soft-white"
+        "hour-icon-color": "text-soft-white",
+        "before-background": "before:bg-dark-space",
+        "after-background": "after:bg-dark-space",
+        "border": "border-dark-space"
       }
     },
     "8": {
@@ -85,7 +106,10 @@
         "scrollbar-track": "scrollbar-track-morning-sky",
         "scrollbar-thumb": "scrollbar-thumb-dark-space",
         "hour-background": "bg-dark-space",
-        "hour-icon-color": "text-soft-white"
+        "hour-icon-color": "text-soft-white",
+        "before-background": "before:bg-dark-space",
+        "after-background": "after:bg-dark-space",
+        "border": "border-dark-space"
       }
     },
     "9": {
@@ -96,7 +120,10 @@
         "scrollbar-track": "scrollbar-track-morning-midday",
         "scrollbar-thumb": "scrollbar-thumb-dark-space",
         "hour-background": "bg-dark-space",
-        "hour-icon-color": "text-soft-white"
+        "hour-icon-color": "text-soft-white",
+        "before-background": "before:bg-dark-space",
+        "after-background": "after:bg-dark-space",
+        "border": "border-dark-space"
       }
     },
     "10": {
@@ -107,7 +134,10 @@
         "scrollbar-track": "scrollbar-track-peak-daylight",
         "scrollbar-thumb": "scrollbar-thumb-dark-space",
         "hour-background": "bg-dark-space",
-        "hour-icon-color": "text-soft-white"
+        "hour-icon-color": "text-soft-white",
+        "before-background": "before:bg-dark-space",
+        "after-background": "after:bg-dark-space",
+        "border": "border-dark-space"
       }
     },
     "11": {
@@ -118,7 +148,10 @@
         "scrollbar-track": "scrollbar-track-peak-daylight",
         "scrollbar-thumb": "scrollbar-thumb-dark-space",
         "hour-background": "bg-dark-space",
-        "hour-icon-color": "text-soft-white"
+        "hour-icon-color": "text-soft-white",
+        "before-background": "before:bg-dark-space",
+        "after-background": "after:bg-dark-space",
+        "border": "border-dark-space"
       }
     },
     "12": {
@@ -129,7 +162,10 @@
         "scrollbar-track": "scrollbar-track-peak-daylight",
         "scrollbar-thumb": "scrollbar-thumb-dark-space",
         "hour-background": "bg-dark-space",
-        "hour-icon-color": "text-soft-white"
+        "hour-icon-color": "text-soft-white",
+        "before-background": "before:bg-dark-space",
+        "after-background": "after:bg-dark-space",
+        "border": "border-dark-space"
       }
     },
     "13": {
@@ -140,7 +176,10 @@
         "scrollbar-track": "scrollbar-track-peak-daylight",
         "scrollbar-thumb": "scrollbar-thumb-dark-space",
         "hour-background": "bg-dark-space",
-        "hour-icon-color": "text-soft-white"
+        "hour-icon-color": "text-soft-white",
+        "before-background": "before:bg-dark-space",
+        "after-background": "after:bg-dark-space",
+        "border": "border-dark-space"
       }
     },
     "14": {
@@ -151,7 +190,10 @@
         "scrollbar-track": "scrollbar-track-peak-daylight",
         "scrollbar-thumb": "scrollbar-thumb-dark-space",
         "hour-background": "bg-dark-space",
-        "hour-icon-color": "text-soft-white"
+        "hour-icon-color": "text-soft-white",
+        "before-background": "before:bg-dark-space",
+        "after-background": "after:bg-dark-space",
+        "border": "border-dark-space"
       }
     },
     "15": {
@@ -162,7 +204,10 @@
         "scrollbar-track": "scrollbar-track-peak-daylight",
         "scrollbar-thumb": "scrollbar-thumb-dark-space",
         "hour-background": "bg-dark-space",
-        "hour-icon-color": "text-soft-white"
+        "hour-icon-color": "text-soft-white",
+        "before-background": "before:bg-dark-space",
+        "after-background": "after:bg-dark-space",
+        "border": "border-dark-space"
       }
     },
     "16": {
@@ -173,7 +218,10 @@
         "scrollbar-track": "scrollbar-track-peak-daylight",
         "scrollbar-thumb": "scrollbar-thumb-dark-space",
         "hour-background": "bg-dark-space",
-        "hour-icon-color": "text-soft-white"
+        "hour-icon-color": "text-soft-white",
+        "before-background": "before:bg-dark-space",
+        "after-background": "after:bg-dark-space",
+        "border": "border-dark-space"
       }
     },
     "17": {
@@ -184,7 +232,10 @@
         "scrollbar-track": "scrollbar-track-late-afternoon",
         "scrollbar-thumb": "scrollbar-thumb-dark-space",
         "hour-background": "bg-dark-space",
-        "hour-icon-color": "text-soft-white"
+        "hour-icon-color": "text-soft-white",
+        "before-background": "before:bg-dark-space",
+        "after-background": "after:bg-dark-space",
+        "border": "border-dark-space"
       }
     },
     "18": {
@@ -195,7 +246,10 @@
         "scrollbar-track": "scrollbar-track-sunset-beginning",
         "scrollbar-thumb": "scrollbar-thumb-dark-space",
         "hour-background": "bg-dark-space",
-        "hour-icon-color": "text-soft-white"
+        "hour-icon-color": "text-soft-white",
+        "before-background": "before:bg-dark-space",
+        "after-background": "after:bg-dark-space",
+        "border": "border-dark-space"
       }
     },
     "19": {
@@ -206,7 +260,10 @@
         "scrollbar-track": "scrollbar-track-dusk",
         "scrollbar-thumb": "scrollbar-thumb-soft-white",
         "hour-background": "bg-soft-white",
-        "hour-icon-color": "text-dark-space"
+        "hour-icon-color": "text-dark-space",
+        "before-background": "before:bg-soft-white",
+        "after-background": "after:bg-soft-white",
+        "border": "border-soft-white"
       }
     },
     "20": {
@@ -217,7 +274,10 @@
         "scrollbar-track": "scrollbar-track-late-dusk",
         "scrollbar-thumb": "scrollbar-thumb-soft-white",
         "hour-background": "bg-soft-white",
-        "hour-icon-color": "text-dark-space"
+        "hour-icon-color": "text-dark-space",
+        "before-background": "before:bg-soft-white",
+        "after-background": "after:bg-soft-white",
+        "border": "border-soft-white"
       }
     },
     "21": {
@@ -228,7 +288,10 @@
         "scrollbar-track": "scrollbar-track-deep-night",
         "scrollbar-thumb": "scrollbar-thumb-soft-white",
         "hour-background": "bg-soft-white",
-        "hour-icon-color": "text-dark-space"
+        "hour-icon-color": "text-dark-space",
+        "before-background": "before:bg-soft-white",
+        "after-background": "after:bg-soft-white",
+        "border": "border-soft-white"
       }
     },
     "22": {
@@ -239,7 +302,10 @@
         "scrollbar-track": "scrollbar-track-deep-night",
         "scrollbar-thumb": "scrollbar-thumb-soft-white",
         "hour-background": "bg-soft-white",
-        "hour-icon-color": "text-dark-space"
+        "hour-icon-color": "text-dark-space",
+        "before-background": "before:bg-soft-white",
+        "after-background": "after:bg-soft-white",
+        "border": "border-soft-white"
       }
     },
     "23": {
@@ -250,7 +316,10 @@
         "scrollbar-track": "scrollbar-track-deep-night",
         "scrollbar-thumb": "scrollbar-thumb-soft-white",
         "hour-background": "bg-soft-white",
-        "hour-icon-color": "text-dark-space"
+        "hour-icon-color": "text-dark-space",
+        "before-background": "before:bg-soft-white",
+        "after-background": "after:bg-soft-white",
+        "border": "border-soft-white"
       }
     },
     "24": {
@@ -261,10 +330,13 @@
         "scrollbar-track": "scrollbar-track-deep-night",
         "scrollbar-thumb": "scrollbar-thumb-soft-white",
         "hour-background": "bg-soft-white",
-        "hour-icon-color": "text-dark-space"
+        "hour-icon-color": "text-dark-space",
+        "before-background": "before:bg-soft-white",
+        "after-background": "after:bg-soft-white",
+        "border": "border-soft-white"
       }
     }
   },
   "hoursCount": 24,
-  "colorVariables": 6
+  "colorVariables": 9
 }
