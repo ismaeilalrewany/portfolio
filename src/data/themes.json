@@ -11,7 +11,8 @@
         "hour-icon-color": "text-dark-space",
         "before-background": "before:bg-soft-white",
         "after-background": "after:bg-soft-white",
-        "border": "border-soft-white"
+        "border": "border-soft-white",
+        "spark": "bg-soft-white-spark"
       }
     },
     "2": {
@@ -25,7 +26,8 @@
         "hour-icon-color": "text-dark-space",
         "before-background": "before:bg-soft-white",
         "after-background": "after:bg-soft-white",
-        "border": "border-soft-white"
+        "border": "border-soft-white",
+        "spark": "bg-soft-white-spark"
       }
     },
     "3": {
@@ -39,7 +41,8 @@
         "hour-icon-color": "text-dark-space",
         "before-background": "before:bg-soft-white",
         "after-background": "after:bg-soft-white",
-        "border": "border-soft-white"
+        "border": "border-soft-white",
+        "spark": "bg-soft-white-spark"
       }
     },
     "4": {
@@ -53,7 +56,8 @@
         "hour-icon-color": "text-dark-space",
         "before-background": "before:bg-soft-white",
         "after-background": "after:bg-soft-white",
-        "border": "border-soft-white"
+        "border": "border-soft-white",
+        "spark": "bg-soft-white-spark"
       }
     },
     "5": {
@@ -67,7 +71,8 @@
         "hour-icon-color": "text-dark-space",
         "before-background": "before:bg-soft-white",
         "after-background": "after:bg-soft-white",
-        "border": "border-soft-white"
+        "border": "border-soft-white",
+        "spark": "bg-soft-white-spark"
       }
     },
     "6": {
@@ -81,7 +86,8 @@
         "hour-icon-color": "text-dark-space",
         "before-background": "before:bg-soft-white",
         "after-background": "after:bg-soft-white",
-        "border": "border-soft-white"
+        "border": "border-soft-white",
+        "spark": "bg-soft-white-spark"
       }
     },
     "7": {
@@ -95,7 +101,8 @@
         "hour-icon-color": "text-soft-white",
         "before-background": "before:bg-dark-space",
         "after-background": "after:bg-dark-space",
-        "border": "border-dark-space"
+        "border": "border-dark-space",
+        "spark": "bg-dark-space-spark"
       }
     },
     "8": {
@@ -109,7 +116,8 @@
         "hour-icon-color": "text-soft-white",
         "before-background": "before:bg-dark-space",
         "after-background": "after:bg-dark-space",
-        "border": "border-dark-space"
+        "border": "border-dark-space",
+        "spark": "bg-dark-space-spark"
       }
     },
     "9": {
@@ -123,7 +131,8 @@
         "hour-icon-color": "text-soft-white",
         "before-background": "before:bg-dark-space",
         "after-background": "after:bg-dark-space",
-        "border": "border-dark-space"
+        "border": "border-dark-space",
+        "spark": "bg-dark-space-spark"
       }
     },
     "10": {
@@ -137,7 +146,8 @@
         "hour-icon-color": "text-soft-white",
         "before-background": "before:bg-dark-space",
         "after-background": "after:bg-dark-space",
-        "border": "border-dark-space"
+        "border": "border-dark-space",
+        "spark": "bg-dark-space-spark"
       }
     },
     "11": {
@@ -151,7 +161,8 @@
         "hour-icon-color": "text-soft-white",
         "before-background": "before:bg-dark-space",
         "after-background": "after:bg-dark-space",
-        "border": "border-dark-space"
+        "border": "border-dark-space",
+        "spark": "bg-dark-space-spark"
       }
     },
     "12": {
@@ -165,7 +176,8 @@
         "hour-icon-color": "text-soft-white",
         "before-background": "before:bg-dark-space",
         "after-background": "after:bg-dark-space",
-        "border": "border-dark-space"
+        "border": "border-dark-space",
+        "spark": "bg-dark-space-spark"
       }
     },
     "13": {
@@ -179,7 +191,8 @@
         "hour-icon-color": "text-soft-white",
         "before-background": "before:bg-dark-space",
         "after-background": "after:bg-dark-space",
-        "border": "border-dark-space"
+        "border": "border-dark-space",
+        "spark": "bg-dark-space-spark"
       }
     },
     "14": {
@@ -193,7 +206,8 @@
         "hour-icon-color": "text-soft-white",
         "before-background": "before:bg-dark-space",
         "after-background": "after:bg-dark-space",
-        "border": "border-dark-space"
+        "border": "border-dark-space",
+        "spark": "bg-dark-space-spark"
       }
     },
     "15": {
@@ -207,7 +221,8 @@
         "hour-icon-color": "text-soft-white",
         "before-background": "before:bg-dark-space",
         "after-background": "after:bg-dark-space",
-        "border": "border-dark-space"
+        "border": "border-dark-space",
+        "spark": "bg-dark-space-spark"
       }
     },
     "16": {
@@ -221,7 +236,8 @@
         "hour-icon-color": "text-soft-white",
         "before-background": "before:bg-dark-space",
         "after-background": "after:bg-dark-space",
-        "border": "border-dark-space"
+        "border": "border-dark-space",
+        "spark": "bg-dark-space-spark"
       }
     },
     "17": {
@@ -235,7 +251,8 @@
         "hour-icon-color": "text-soft-white",
         "before-background": "before:bg-dark-space",
         "after-background": "after:bg-dark-space",
-        "border": "border-dark-space"
+        "border": "border-dark-space",
+        "spark": "bg-dark-space-spark"
       }
     },
     "18": {
@@ -249,7 +266,8 @@
         "hour-icon-color": "text-soft-white",
         "before-background": "before:bg-dark-space",
         "after-background": "after:bg-dark-space",
-        "border": "border-dark-space"
+        "border": "border-dark-space",
+        "spark": "bg-dark-space-spark"
       }
     },
     "19": {
@@ -263,7 +281,8 @@
         "hour-icon-color": "text-dark-space",
         "before-background": "before:bg-soft-white",
         "after-background": "after:bg-soft-white",
-        "border": "border-soft-white"
+        "border": "border-soft-white",
+        "spark": "bg-soft-white-spark"
       }
     },
     "20": {
@@ -277,7 +296,8 @@
         "hour-icon-color": "text-dark-space",
         "before-background": "before:bg-soft-white",
         "after-background": "after:bg-soft-white",
-        "border": "border-soft-white"
+        "border": "border-soft-white",
+        "spark": "bg-soft-white-spark"
       }
     },
     "21": {
@@ -291,7 +311,8 @@
         "hour-icon-color": "text-dark-space",
         "before-background": "before:bg-soft-white",
         "after-background": "after:bg-soft-white",
-        "border": "border-soft-white"
+        "border": "border-soft-white",
+        "spark": "bg-soft-white-spark"
       }
     },
     "22": {
@@ -305,7 +326,8 @@
         "hour-icon-color": "text-dark-space",
         "before-background": "before:bg-soft-white",
         "after-background": "after:bg-soft-white",
-        "border": "border-soft-white"
+        "border": "border-soft-white",
+        "spark": "bg-soft-white-spark"
       }
     },
     "23": {
@@ -319,7 +341,8 @@
         "hour-icon-color": "text-dark-space",
         "before-background": "before:bg-soft-white",
         "after-background": "after:bg-soft-white",
-        "border": "border-soft-white"
+        "border": "border-soft-white",
+        "spark": "bg-soft-white-spark"
       }
     },
     "24": {
@@ -333,10 +356,11 @@
         "hour-icon-color": "text-dark-space",
         "before-background": "before:bg-soft-white",
         "after-background": "after:bg-soft-white",
-        "border": "border-soft-white"
+        "border": "border-soft-white",
+        "spark": "bg-soft-white-spark"
       }
     }
   },
   "hoursCount": 24,
-  "colorVariables": 9
+  "colorVariables": 10
 }

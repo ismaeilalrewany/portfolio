@@ -39,6 +39,8 @@ export default {
     'scrollbar-track-late-dusk',
     'scrollbar-thumb-dark-space',
     'scrollbar-thumb-soft-white',
+    'bg-dark-space-spark',
+    'bg-soft-white-spark',
   ],
   theme: {
     extend: {
@@ -55,6 +57,10 @@ export default {
         "late-dusk": "#2d325a",
         "dark-space": "#1a1a2e",
         "soft-white": "#e8e8ff",
+      },
+      backgroundImage: {
+        'dark-space-spark': 'conic-gradient(from 90deg at 50% 50%, #1a1a2e0c 0%, #1a1a2e 50%, #1a1a2e0c 100%)',
+        'soft-white-spark': 'conic-gradient(from 90deg at 50% 50%, #e8e8ff0c 0%, #e8e8ff 50%, #e8e8ff0c 100%)',
       },
       fontFamily: {
         Orbitron: ["Orbitron", "sans-serif"],
@@ -101,6 +107,11 @@ export default {
           '50%': {opacity: '0.99'},
           '100%': {opacity: '0.95'},
         },
+        sparkle: {
+          '0%': { opacity: '0', transform: 'scale(0) rotate(0deg)' },
+          '50%': { opacity: '1', transform: 'scale(1.5) rotate(180deg)' },
+          '100%': { opacity: '0', transform: 'scale(0) rotate(360deg)' },
+        },
       },
       animation: {
         'smoke-1': 'smoke 4s cubic-bezier(0.4, 0, 0.2, 1) infinite backwards',
@@ -109,6 +120,8 @@ export default {
         'rotate': 'rotate 120s linear infinite',
         'twinkle': 'twinkle 2s infinite alternate',
         'pulse-slow': 'pulse-slow 8s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'spin-slow': 'spin 3s linear infinite',
+        'sparkle': 'sparkle 2s linear infinite',
       }
     },
   },

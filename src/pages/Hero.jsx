@@ -28,7 +28,7 @@ export const Hero = () => {
           <div className="container px-2 mx-auto flex-grow flex flex-col justify-center items-center">
             <h1 className="text-[32px] sm:text-[48px] md:text-[64px] lg:text-[96px] font-medium font-Orbitron">Ismaeil Alrewany</h1>
             <p className="md:text-[24px] lg:text-[32px]">I&apos;m a Front-end Web Developer</p>
-            <Button label="Download CV" />
+            <Button theme={theme} label="Download CV" />
             <div className="absolute bottom-6">
               
             </div>
