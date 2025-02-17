@@ -18,11 +18,7 @@ export const NavItem = ({ item, theme }) => {
   return (
     <NavLink
       to={item.url}
-      className={({ isActive }) =>
-        `relative mx-auto cursor-pointer border-2 mb-6 w-8 h-8 rounded-full ${theme.background} ${theme.border} flex justify-center items-center ${
-          isActive ? "active" : ""
-        }`
-      }
+      className={({ isActive }) => `relative mx-auto cursor-pointer border-2 mb-6 w-8 h-8 rounded-full ${theme.border} before:content-[''] before:absolute before:h-[24px] before:w-[2px] before:z-[-1] ${theme["before-background"]} before:left-[50%] before:top-[-26px] before:translate-x-[-50%] last:after:content-[''] last:after:absolute last:after:h-[24px] last:after:w-[2px] last:after:rounded-b-full last:after:z-[-1] ${theme["after-background"]} last:after:left-[50%] last:after:top-[30px] last:after:translate-x-[-50%] flex justify-center items-center ${isActive ? "active" : ""}`}
       onMouseEnter={() => setDisplayDescription(true)}
       onMouseLeave={() => setDisplayDescription(false)}
     >

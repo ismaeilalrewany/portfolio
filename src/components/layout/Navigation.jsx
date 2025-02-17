@@ -51,12 +51,10 @@ export const Navigation = () => {
         <span className="text-lg">/</span>
         <span className=""> {navbarData.itemsCount}</span>
       </p>
-      <div className={`relative before:content-[''] before:absolute before:h-[248px] before:rounded-b-full before:w-[2px] before:z-[-1] ${navThemes()["before-background"]} before:left-[50%] before:top-[-24px] before:translate-x-[-50%] after:content-[''] after:absolute after:h-[48px] after:rounded-t-full after:w-[2px] after:z-[-1] ${navThemes()["after-background"]} after:left-[50%] after:top-[-100px] after:translate-x-[-50%]`}>
-        <ul className="list-none">
-          {navbarData.navItems.map((item) => (
-            <NavItem key={item.id} item={item} theme={navThemes()}/>
-          ))}
-        </ul>
+      <div className={`relative before:content-[''] before:absolute before:h-[48px] before:rounded-t-full before:w-[2px] before:z-[-1] ${navThemes()["before-background"]} before:left-[50%] before:top-[-100px] before:translate-x-[-50%]`}>
+        {navbarData.navItems.map((item) => (
+          <NavItem key={item.id} item={item} theme={navThemes()}/>
+        ))}
       </div>
     </nav>
   )
