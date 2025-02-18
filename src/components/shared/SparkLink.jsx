@@ -5,7 +5,7 @@ import propTypes from 'prop-types'
 export const SparkLink = ({ label, theme = {background: "bg-black"}, to }) => {
   return (
     <SparkStyle theme={theme}>
-      <Link to={to} className={`inline-block relative py-3 px-4 text-[14px] lg:text-[16px] rounded-full font-BrunoAceSC ${theme.background} transition-[background-color] duration-300`}>{label}</Link>
+      <Link to={to} rel="noopener noreferrer" className={`inline-block relative py-3 px-4 text-[14px] lg:text-[16px] rounded-full font-BrunoAceSC ${theme.background} transition-[background-color] duration-300`}>{label}</Link>
     </SparkStyle>
   )
 }
@@ -13,5 +13,5 @@ export const SparkLink = ({ label, theme = {background: "bg-black"}, to }) => {
 SparkLink.propTypes = {
   label: propTypes.string.isRequired,
   theme: propTypes.object,
-  to: propTypes.string,
+  to: propTypes.string.isRequired,
 }

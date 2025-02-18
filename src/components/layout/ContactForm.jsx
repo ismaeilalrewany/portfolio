@@ -35,7 +35,7 @@ export const ContactForm = () => {
         <Input label="Full Name" id="fullName" />
         <Input label="Email" id="email" type="email" />
         <Input label="Message" id="message" textarea />
-        <SparkButton label="Submit" type="submit" />
+        <SparkButton label="Connect Me" type="submit" />
       </form>
       {/* <span className="font-BrunoAceSC text-md text-blue-500" >{result}</span> */}
     </>
