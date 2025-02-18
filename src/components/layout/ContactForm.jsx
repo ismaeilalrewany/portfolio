@@ -1,5 +1,5 @@
 import { Input } from "../shared/Input"
-import { Button } from "../shared/Button"
+import { SparkButton } from "../shared/SparkButton"
 import { useState } from "react"
 
 export const ContactForm = () => {
@@ -35,7 +35,7 @@ export const ContactForm = () => {
         <Input label="Full Name" id="fullName" />
         <Input label="Email" id="email" type="email" />
         <Input label="Message" id="message" textarea />
-        <Button label="Submit" type="submit" />
+        <SparkButton label="Submit" type="submit" />
       </form>
       {/* <span className="font-BrunoAceSC text-md text-blue-500" >{result}</span> */}
     </>
