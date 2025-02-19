@@ -6,7 +6,7 @@ const Footer = ({textColor}) => {
   const color = textColor ? textColor : 'text-blue-500'
 
   return (
-    <footer className="">
+    <footer className="z-[1]">
       <div className="container mx-auto p-2">
         <div className="flex justify-between items-center">
           <p className={`text-xs md:text-base font-BrunoAceSC ${color}`}>&copy; 2025 Ismaeil Alrewany</p>

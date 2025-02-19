@@ -1,4 +1,6 @@
 import { useRef, useEffect } from "react"
+import { Stars } from "../components/shared/Stars"
+// import { AnimatedCelestial } from "../components/features/AnimatedCelestial"
 import { Header } from "../components/layout/Header"
 import { SparkLink } from "../components/shared/SparkLink"
 import { Footer } from "../components/layout/Footer"
@@ -22,21 +24,21 @@ export const Hero = () => {
   }, [setCurrentSection])
 
   return (
-    <>
-      <section className={`h-screen transition-colors duration-300 ${theme.background} ${theme.text} font-NovaSquare relative overflow-x-hidden overflow-y-auto scrollbar-thin ${theme["scrollbar-track"]} ${theme["scrollbar-thumb"]}`} ref={section}>
-        <div className="flex flex-col h-full">
-          <Header />
-          <div className="container px-2 mx-auto flex-grow flex flex-col justify-center items-center">
-            <h1 className="text-[32px] sm:text-[48px] md:text-[64px] lg:text-[96px] font-medium font-Orbitron">Ismaeil Alrewany</h1>
-            <p className="md:text-[24px] lg:text-[32px]">I&apos;m a Front-end Web Developer</p>
-            <SparkLink theme={theme} label="Download CV" to={`https://drive.google.com/uc?export=download&id=${cvfileId}`} />
-            <div className="absolute bottom-6">
-              
-            </div>
+    <section className={`h-screen relative overflow-x-hidden overflow-y-auto scrollbar-thin ${theme["scrollbar-track"]} ${theme["scrollbar-thumb"]}`} ref={section}>
+      <Stars />
+      {/* <AnimatedCelestial /> */}
+      <div className={`flex flex-col h-full transition-colors duration-300 ${theme.background} ${theme.text} font-NovaSquare`}>
+        <Header />
+        <div className="container px-2 mx-auto flex-grow flex flex-col justify-center items-center z-[1]">
+          <h1 className="text-[32px] sm:text-[48px] md:text-[64px] lg:text-[96px] font-medium font-Orbitron">Ismaeil Alrewany</h1>
+          <p className="md:text-[24px] lg:text-[32px]">I&apos;m a Front-end Web Developer</p>
+          <SparkLink theme={theme} label="Download CV" to={`https://drive.google.com/uc?export=download&id=${cvfileId}`} />
+          <div className="absolute bottom-6">
+            
           </div>
-          <Footer textColor={theme.text}/>
         </div>
-      </section>
-    </>
+        <Footer textColor={theme.text}/>
+      </div>
+    </section>
   )
 }

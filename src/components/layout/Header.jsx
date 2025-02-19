@@ -25,7 +25,7 @@ export const Header = () => {
   }
 
   return (
-    <header className="text-center">
+    <header className="text-center z-[1]">
       <div className="container px-2 pt-16 mx-auto">
         <div className="flex justify-center items-end min-w-[204px] w-auto h-10">
           {iterateHours(themesData.hours)}

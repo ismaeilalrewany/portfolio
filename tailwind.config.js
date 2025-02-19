@@ -112,6 +112,10 @@ export default {
           '50%': { opacity: '1', transform: 'scale(1.5) rotate(180deg)' },
           '100%': { opacity: '0', transform: 'scale(0) rotate(360deg)' },
         },
+        // slide: {
+        //   '0%': { transform: 'translateX(100%)' },
+        //   '100%': { transform: 'translateX(-100%)' },
+        // },
       },
       animation: {
         'smoke-1': 'smoke 4s cubic-bezier(0.4, 0, 0.2, 1) infinite backwards',
@@ -122,6 +126,7 @@ export default {
         'pulse-slow': 'pulse-slow 8s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         'spin-slow': 'spin 3s linear infinite',
         'sparkle': 'sparkle 2s linear infinite',
+        // 'slide-right-left': 'slide 20s linear infinite',
       }
     },
   },

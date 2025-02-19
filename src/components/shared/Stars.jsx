@@ -19,5 +19,5 @@ export const Stars = () => {
     )
   }
 
-  return stars
+  return <div className="absolute inset-0 overflow-hidden">{stars}</div>
 }
