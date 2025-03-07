@@ -16,7 +16,7 @@ export const Hero = () => {
   const theme = themesData.hours[selectedHour.toString()].colors
   const cvfileId = "1dXqwBNv2CUqWSF-9Q8xXcns0ooF5ij3L"
 
-  useTitle("Ismaeil Alrewany | Front-end Web Developer")
+  useTitle("Ismaeil Alrewany | Full-stack Web Developer")
 
   useEffect(() => {
     setCurrentSection(section)
