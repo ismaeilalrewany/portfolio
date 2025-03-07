@@ -9,13 +9,16 @@
 - [X] Work on projects page & projects cards with animation.
 - [X] Work on skills page & the whole galaxy thing.
 - [X] Work on the header features.
-- [ ] Nav polish and Fix background with line through.
-- [ ] New button and make the download button work.
-- [ ] Nav and Footer colors change with theme.
-- [ ] Make what I finish already responsive.
+- [X] Nav polish and Fix background with line through.
+- [X] New button and make the download button work.
+- [X] Nav and Footer colors change with theme.
+- [X] Stars at night.
 - [ ] Sun and Moon with animations.
-- [ ] Stars at night.
+- [ ] Use Deffered and Memoize for Stars component.
+- [ ] Make what I finish already responsive.
 - [ ] Nice notification after download.
+- [ ] Fix code, make it more readable and Change project structure.
+- [ ] Add a loading screen.
 
 **Bugs To Fix:**
 
@@ -23,3 +26,4 @@
 - [X] Fix after backward with browser button from 404 nav doesn't work but works if I put the URL directly or click on Go Back button.
 - [ ] Mobile when I scroll up browser won't reload if I am in the scrollable div.
 - [ ] After loading I want the mobile browser to show the whole page like desktop without the url thing in top.
+- [ ] Contact page footer is not at the bottom.
